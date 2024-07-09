@@ -1,0 +1,4 @@
+Record=TopLevelDocument|FileName=Synapse(all).SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=Synapse(all).SchDoc|Designator=0|SchDesignator=0|FileName=Delta.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=Delta.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Synapse(all).SchDoc|Designator=1|SchDesignator=1|FileName=Current Mirror_1.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=Current Mirror_1.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Synapse(all).SchDoc|Designator=2|SchDesignator=2|FileName=Current Mirror_2.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=Current Mirror_2.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
