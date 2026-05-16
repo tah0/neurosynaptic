@@ -1,0 +1,11 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "3214X-1-103E") (type "Altium") (uri "${KIPRJMOD}/3214X-1-103E.SchLib") (options "") (descr ""))
+	(lib (name "ALD1105PBL") (type "Altium") (uri "${KIPRJMOD}/ALD1105PBL.SchLib") (options "") (descr ""))
+	(lib (name "thristor_S4X8TS1RP") (type "Altium") (uri "${KIPRJMOD}/thristor_S4X8TS1RP.SchLib") (options "") (descr ""))
+	(lib (name "RCS06030000Z0EC") (type "Altium") (uri "${KIPRJMOD}/RCS06030000Z0EC.SchLib") (options "") (descr ""))
+	(lib (name "R30k_RCS060330K0FKEA") (type "Altium") (uri "${KIPRJMOD}/R30k_RCS060330K0FKEA.SchLib") (options "") (descr ""))
+	(lib (name "SSW-102-01-X-S") (type "Altium") (uri "${KIPRJMOD}/SSW-102-01-X-S.SchLib") (options "") (descr ""))
+	(lib (name "SamacSys") (type "Altium") (uri "${KIPRJMOD}/SamacSys.SchLib") (options "") (descr ""))
+	(lib (name "TSW-102-07-G-S") (type "Altium") (uri "${KIPRJMOD}/TSW-102-07-G-S.SchLib") (options "") (descr ""))
+)

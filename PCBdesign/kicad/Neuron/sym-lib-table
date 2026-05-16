@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "SamacSys") (type "Altium") (uri "${KIPRJMOD}/SamacSys.SchLib") (options "") (descr ""))
+)

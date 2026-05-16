@@ -1,0 +1,5203 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "982eca37-839c-4b47-88f4-3e7c84fd6ea1")
+	(paper "A4")
+	(lib_symbols
+		(symbol "3214X-1-103E:root_0_3214X-1-103E_3214X-1-103E.SchLib"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "10 kOhms 0.25W, 1/4W Gull Wing Surface Mount Trimmer Potentiometer Cermet 5 Turn Top Adjustment"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*3214X1203E*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "root_0_3214X-1-103E_3214X-1-103E.SchLib_1_0"
+				(polyline
+					(pts
+						(xy -1.016 3.81) (xy 0 4.572)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -3.81) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 4.572) (xy 0 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.572) (xy -1.016 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy -1.016 3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.016 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy -1.016 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 10.16 270)
+					(length 5.08)
+					(name "CCW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "WIPER"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "CW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "3214X-1-103E:root_2_mirrored_3214X-1-103E_3214X-1-103E.SchLib"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "10 kOhms 0.25W, 1/4W Gull Wing Surface Mount Trimmer Potentiometer Cermet 5 Turn Top Adjustment"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*3214X1203E*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "root_2_mirrored_3214X-1-103E_3214X-1-103E.SchLib_1_0"
+				(polyline
+					(pts
+						(xy -1.016 3.81) (xy 0 4.572)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -3.81) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 4.572) (xy 0 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.572) (xy -1.016 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy -1.016 3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.016 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy -1.016 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 10.16 270)
+					(length 5.08)
+					(name "CCW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "WIPER"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "CW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Miscellaneous Devices:root_0_Res3_Miscellaneous Devices.IntLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*J1-0603*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "root_0_Res3_Miscellaneous Devices.IntLib_1_0"
+				(polyline
+					(pts
+						(xy -2.54 -7.62) (xy -1.778 -6.858) (xy -3.302 -5.334) (xy -1.778 -3.81) (xy -3.302 -2.286) (xy -1.778 -0.762)
+						(xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Miscellaneous Devices:root_1_Cap Semi_Miscellaneous Devices.IntLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Capacitor (Semiconductor SIM Model)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*C1206*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "root_1_Cap Semi_Miscellaneous Devices.IntLib_1_0"
+				(polyline
+					(pts
+						(xy -4.572 -0.762) (xy -0.508 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.778) (xy -4.572 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Miscellaneous Devices:root_1_Res3_Miscellaneous Devices.IntLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*J1-0603*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "root_1_Res3_Miscellaneous Devices.IntLib_1_0"
+				(polyline
+					(pts
+						(xy -2.54 -7.62) (xy -1.778 -6.858) (xy -3.302 -5.334) (xy -1.778 -3.81) (xy -3.302 -2.286) (xy -1.778 -0.762)
+						(xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Miscellaneous Devices:root_3_Cap2_Miscellaneous Devices.IntLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*CAPR5-4X5*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "root_3_Cap2_Miscellaneous Devices.IntLib_1_0"
+				(polyline
+					(pts
+						(xy -4.572 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.016) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -4.5103 -1.5255)
+					(mid -3.5576 -1.1454)
+					(end -2.54 -1.016)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -1.016)
+					(mid -1.5225 -1.1454)
+					(end -0.5697 -1.5255)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Neuron_Project-altium-import:+5_BAR"
+			(power global)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name '+5'"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5_BAR_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "+5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Neuron_Project-altium-import:GND_POWER_GROUND"
+			(power global)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'GND'"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_POWER_GROUND_0_0"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -3.302) (xy 1.778 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy 1.016 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -4.826) (xy 0.254 -4.826)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SSW-102-01-X-S:root_1_SSW-102-01-X-S_SSW-102-01-X-S.SchLib"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "2 Position Receptacle Connector Through Hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*TSW-102-XX-YY-S*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "root_1_SSW-102-01-X-S_SSW-102-01-X-S.SchLib_1_0"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 2.54 5.08)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 10.16 270)
+					(length 5.08)
+					(name "01"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "01"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 10.16 270)
+					(length 5.08)
+					(name "02"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "02"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys:root_2_S4X8TS1RP_SamacSys.SchLib"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Thyristor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*S4X8TS1RP*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "root_2_S4X8TS1RP_SamacSys.SchLib_1_0"
+				(rectangle
+					(start -7.62 -5.08)
+					(end 2.54 -20.32)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 270)
+					(length 5.08)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 270)
+					(length 5.08)
+					(name "A_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 270)
+					(length 5.08)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -25.4 90)
+					(length 5.08)
+					(name "A_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "headerTSW-102-07-G-S:root_3_TSW-102-07-G-S_headerTSW-102-07-G-S.SchLib"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "<a href=\"https://pricing.snapeda.com/parts/TSW-102-07-G-S/Samtec/view-part?ref=eda\">Check availability</a>"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*SAMTEC_TSW-102-07-G-S*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "root_3_TSW-102-07-G-S_headerTSW-102-07-G-S.SchLib_1_0"
+				(rectangle
+					(start 5.08 5.08)
+					(end -2.54 -5.08)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 2.54 10.16 270)
+					(length 5.08)
+					(name "01"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "01"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 10.16 270)
+					(length 5.08)
+					(name "02"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "02"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Haoran DU"
+		(exclude_from_sim no)
+		(at 261.62 204.9272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "898feaf0-65bd-4d0f-a011-c818e2f93102")
+	)
+	(text "Nueron"
+		(exclude_from_sim no)
+		(at 207.01 190.9572 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+			)
+			(justify left bottom)
+		)
+		(uuid "c159b203-04af-4c0c-8b10-dbbcfe3865c6")
+	)
+	(junction
+		(at 138.43 114.7572)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00272b60-55aa-4607-bfd1-8c1cb3fe03db")
+	)
+	(junction
+		(at 180.34 114.7572)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "096e259e-3720-4a62-aee1-d6af0858039e")
+	)
+	(junction
+		(at 124.46 103.3272)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b62b749-b46f-4815-8e44-d579704f159a")
+	)
+	(junction
+		(at 95.25 103.3272)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b647122-b445-48f6-a4bb-4dd40026fbe3")
+	)
+	(junction
+		(at 160.02 114.7572)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42b3ad67-099c-4180-92c7-057a0597ea64")
+	)
+	(junction
+		(at 121.92 103.3272)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7df85753-c70b-49a1-b5cd-54588e17c39e")
+	)
+	(junction
+		(at 95.25 114.7572)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f53fea5-c174-4106-a3c7-1bd79d56bdf9")
+	)
+	(junction
+		(at 83.82 114.7572)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93cb7852-129f-4d33-8015-5de3f222d7bb")
+	)
+	(junction
+		(at 121.92 114.7572)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3508be9-b1f2-4b9e-9a13-5c1b2a7a12f5")
+	)
+	(junction
+		(at 167.64 114.7572)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a79023f8-543f-433d-9df2-c0108fa80f13")
+	)
+	(junction
+		(at 116.84 89.3572)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9e79ad4-76df-4e81-9a79-931abd9891a9")
+	)
+	(junction
+		(at 124.46 114.7572)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd794a6a-faff-42d2-989c-5706a686e963")
+	)
+	(junction
+		(at 96.52 114.7572)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e36c5b87-7bfa-4122-b502-0894d9beb241")
+	)
+	(wire
+		(pts
+			(xy 64.77 119.8372) (xy 64.77 114.7572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03307f06-79f9-4643-86f3-e80acf9e8c74")
+	)
+	(wire
+		(pts
+			(xy 189.23 116.0272) (xy 189.23 114.7572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06f462b9-409c-4aea-bfe1-f1176a6f3dfc")
+	)
+	(wire
+		(pts
+			(xy 102.87 103.3272) (xy 95.25 103.3272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b46b71a-e865-4422-8d18-85e40edbfb90")
+	)
+	(wire
+		(pts
+			(xy 160.02 114.7572) (xy 167.64 114.7572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d35c22c-da72-45e8-b14d-4fca050d3f5c")
+	)
+	(wire
+		(pts
+			(xy 121.92 103.3272) (xy 124.46 103.3272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10b5a702-31e7-4f4f-ba59-9e06c7ea119f")
+	)
+	(wire
+		(pts
+			(xy 116.84 84.2772) (xy 106.68 84.2772)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a2b4104-c5c4-4efe-89a9-ae18bb693f94")
+	)
+	(wire
+		(pts
+			(xy 121.92 103.3272) (xy 115.57 103.3272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aca97f3-b04c-4d1a-a33d-a330dd94a4bc")
+	)
+	(wire
+		(pts
+			(xy 116.84 89.3572) (xy 116.84 84.2772)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2316d9a2-d53e-44b2-ad30-96af8aaf2e8f")
+	)
+	(wire
+		(pts
+			(xy 124.46 114.7572) (xy 138.43 114.7572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2645a2fa-40f8-4d37-be97-bf849bce51d7")
+	)
+	(wire
+		(pts
+			(xy 96.52 112.2172) (xy 96.52 114.7572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29f7700b-2482-43a2-a54c-d5cbf04bce2a")
+	)
+	(wire
+		(pts
+			(xy 96.52 114.7572) (xy 102.87 114.7572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ee5f83d-9b76-4466-bcbf-292db71b62ef")
+	)
+	(wire
+		(pts
+			(xy 121.92 112.2172) (xy 96.52 112.2172)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3174ebe1-2e8e-4ec2-99a9-5d5bb7908c47")
+	)
+	(wire
+		(pts
+			(xy 96.52 89.3572) (xy 95.25 89.3572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a4f6c0d-ca50-4d66-b053-1b4af6e58206")
+	)
+	(wire
+		(pts
+			(xy 138.43 131.2672) (xy 138.43 141.4272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "518bad5c-15ad-43c0-9ba9-45bd449e0a3d")
+	)
+	(wire
+		(pts
+			(xy 95.25 103.3272) (xy 95.25 114.7572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5472855c-29ff-41b2-a356-62ca47ed1b56")
+	)
+	(wire
+		(pts
+			(xy 167.64 109.6772) (xy 170.18 109.6772)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f2d42e8-2270-4fdb-9f14-fc34da9a2c48")
+	)
+	(wire
+		(pts
+			(xy 72.39 96.9772) (xy 72.39 85.5472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70024fe1-6ac6-4bab-b128-2e943abbd2e4")
+	)
+	(wire
+		(pts
+			(xy 124.46 132.5372) (xy 124.46 141.4272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7597c72b-87ff-4f01-89dd-b2be2e76e3cc")
+	)
+	(wire
+		(pts
+			(xy 160.02 135.0772) (xy 160.02 141.4272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ac6f7ca-bec2-4603-be2b-6864cdbca0ca")
+	)
+	(wire
+		(pts
+			(xy 167.64 114.7572) (xy 167.64 109.6772)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ee5e1be-4421-4125-8bbc-2dbc515f0afe")
+	)
+	(wire
+		(pts
+			(xy 95.25 114.7572) (xy 95.25 124.9172)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bb9f27d-fa8a-4bf9-83bd-d64a398a7e3b")
+	)
+	(wire
+		(pts
+			(xy 167.64 114.7572) (xy 180.34 114.7572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ce437db-3772-4df1-948c-c130ac15fa11")
+	)
+	(wire
+		(pts
+			(xy 124.46 114.7572) (xy 124.46 124.9172)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "965a9ea6-e32a-4e8c-a2f0-eb9645b5bd9f")
+	)
+	(wire
+		(pts
+			(xy 115.57 89.3572) (xy 116.84 89.3572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "966e5804-c25f-4b70-997a-16d699c3d9d3")
+	)
+	(wire
+		(pts
+			(xy 83.82 114.7572) (xy 95.25 114.7572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9de3746f-3e80-4197-8154-f9f85dbe7c7c")
+	)
+	(wire
+		(pts
+			(xy 116.84 89.3572) (xy 124.46 89.3572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f01acea-b931-45f6-ac25-cede09234eb2")
+	)
+	(wire
+		(pts
+			(xy 193.04 114.7572) (xy 193.04 141.4272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fec1b4f-c1a7-42fa-bd39-b7f2c76073f9")
+	)
+	(wire
+		(pts
+			(xy 157.48 114.7572) (xy 160.02 114.7572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5df34d3-1c1f-4339-a39d-ce65b6edc603")
+	)
+	(wire
+		(pts
+			(xy 189.23 114.7572) (xy 193.04 114.7572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5ee6286-ec6a-4963-8833-02d54a08a08a")
+	)
+	(wire
+		(pts
+			(xy 186.69 114.7572) (xy 186.69 116.0272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a60c03c7-af25-412f-a3e6-d21ba7c66bb8")
+	)
+	(wire
+		(pts
+			(xy 118.11 114.7572) (xy 121.92 114.7572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa1ea681-cc8d-4947-90d0-54e79bd7d798")
+	)
+	(wire
+		(pts
+			(xy 69.85 91.8972) (xy 69.85 85.5472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adc9b845-16a1-44f4-82fe-8b24476e622d")
+	)
+	(wire
+		(pts
+			(xy 83.82 124.9172) (xy 83.82 114.7572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aff3c9b3-1ca5-4ee4-9f63-37ac128e868f")
+	)
+	(wire
+		(pts
+			(xy 190.5 109.6772) (xy 205.74 109.6772)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b175e38d-579c-4b9e-b9b0-744dcdad6084")
+	)
+	(wire
+		(pts
+			(xy 205.74 109.6772) (xy 205.74 141.4272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b781e077-da95-4b8f-91a9-982bda1dde70")
+	)
+	(wire
+		(pts
+			(xy 180.34 114.7572) (xy 186.69 114.7572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbd07ff0-49f3-4735-9a8a-c2188e4521b0")
+	)
+	(polyline
+		(pts
+			(xy -88.9 9.3472) (xy -91.44 -3.3528)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "c0a0c9da-7207-4e76-a1e1-337e393168a7")
+	)
+	(polyline
+		(pts
+			(xy 398.78 27.1272) (xy 612.14 -10.9728)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "c358ca33-c8d0-403d-9c45-9ee78848666a")
+	)
+	(wire
+		(pts
+			(xy 95.25 114.7572) (xy 96.52 114.7572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c472c75a-709a-475d-9dc1-e98ab4bafdf2")
+	)
+	(wire
+		(pts
+			(xy 124.46 103.3272) (xy 124.46 114.7572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce9c4c9f-a63a-4729-8e62-65bb968956c7")
+	)
+	(wire
+		(pts
+			(xy 83.82 132.5372) (xy 83.82 141.4272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3ae698a-301e-47ed-bbe2-ede546a0fd89")
+	)
+	(wire
+		(pts
+			(xy 121.92 114.7572) (xy 124.46 114.7572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbe508e8-9ac5-4c31-bbe0-56bfea9edf96")
+	)
+	(wire
+		(pts
+			(xy 138.43 114.7572) (xy 138.43 123.6472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dce7459a-8145-4dd6-bd69-679ed985b5d2")
+	)
+	(wire
+		(pts
+			(xy 121.92 103.3272) (xy 121.92 109.6772)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dee7fba3-0771-4c3e-b682-f161b049d90c")
+	)
+	(wire
+		(pts
+			(xy 124.46 89.3572) (xy 124.46 103.3272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f082e964-18a4-4a93-b88e-115b6352be75")
+	)
+	(wire
+		(pts
+			(xy 95.25 132.5372) (xy 95.25 141.4272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0e77252-3502-49c2-abff-6891a2995341")
+	)
+	(wire
+		(pts
+			(xy 64.77 114.7572) (xy 83.82 114.7572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5ec2fbe-ea5d-464c-89c9-95ac500bc178")
+	)
+	(wire
+		(pts
+			(xy 95.25 89.3572) (xy 95.25 103.3272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9b953f9-53fd-4719-9c91-b056dcb64754")
+	)
+	(wire
+		(pts
+			(xy 138.43 114.7572) (xy 144.78 114.7572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb6d6bdc-f7d2-4116-9191-7a9f4021acf6")
+	)
+	(wire
+		(pts
+			(xy 160.02 114.7572) (xy 160.02 122.3772)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe0df8a7-7c61-4361-ab27-df5e3f39fefd")
+	)
+	(symbol
+		(lib_id "headerTSW-102-07-G-S:root_3_TSW-102-07-G-S_headerTSW-102-07-G-S.SchLib")
+		(at 186.69 126.1872 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1cb7676a-eed9-4b4e-b3cc-e7adb673b386")
+		(property "Reference" "P1"
+			(at 184.15 133.8072 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TSW-102-07-G-S"
+			(at 182.88 135.0772 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SAMTEC_TSW-102-07-G-S"
+			(at 186.69 126.1872 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 126.1872 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "<a href=\"https://pricing.snapeda.com/parts/TSW-102-07-G-S/Samtec/view-part?ref=eda\">Check availability</a>"
+			(at 186.69 126.1872 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Samtec Inc."
+			(at 184.15 115.5192 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 184.15 115.5192 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "PRICE" "None"
+			(at 184.15 115.5192 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "*"
+			(at 184.15 115.5192 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MP" "TSW-102-07-G-S"
+			(at 184.15 115.5192 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "AVAILABILITY" "Unavailable"
+			(at 184.15 115.5192 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "01"
+			(uuid "11dfa0b7-5c72-484c-a121-50a7ed23a659")
+		)
+		(pin "02"
+			(uuid "e71a49f2-cd84-4fb4-a2a6-c22232c0a391")
+		)
+		(instances
+			(project "Neuron_Project"
+				(path "/3905f665-24ad-4235-ac5f-6322543a1637"
+					(reference "P1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Miscellaneous Devices:root_1_Res3_Miscellaneous Devices.IntLib")
+		(at 157.48 132.5372 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1ded5c90-1374-4c04-a500-dd0e259e14ee")
+		(property "Reference" "R3"
+			(at 161.036 127.2032 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "Res3"
+			(at 161.036 129.7432 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "J1-0603"
+			(at 157.48 132.5372 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 132.5372 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 157.48 132.5372 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PUBLISHED" "8-Jun-2000"
+			(at 159.004 121.8692 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "LATESTREVISIONDATE" "29-May-2009"
+			(at 159.004 121.8692 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "LATESTREVISIONNOTE" "IPC-7351 Footprint Added."
+			(at 159.004 121.8692 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PACKAGEREFERENCE" "J1-0603"
+			(at 159.004 121.8692 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PUBLISHER" "Altium Limited"
+			(at 159.004 121.8692 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PACKAGEDESCRIPTION" "Chip Resistor"
+			(at 159.004 121.8692 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "1K"
+			(at 161.036 132.2832 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "1"
+			(uuid "b0fe8649-b63b-4352-9c97-740e87e2c4d4")
+		)
+		(pin "2"
+			(uuid "af7898bb-3fef-4237-9f7a-bb7449d1842c")
+		)
+		(instances
+			(project "Neuron_Project"
+				(path "/3905f665-24ad-4235-ac5f-6322543a1637"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Neuron_Project-altium-import:GND_POWER_GROUND")
+		(at 205.74 141.4272 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2258c67a-01e9-4315-b8de-6d85df15dfa0")
+		(property "Reference" "#PWR?"
+			(at 205.74 141.4272 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 147.7772 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 141.4272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 141.4272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 141.4272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "1f61142c-70b0-4d3a-ab84-3332078b2fba")
+		)
+		(instances
+			(project "Neuron_Project"
+				(path "/3905f665-24ad-4235-ac5f-6322543a1637"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Miscellaneous Devices:root_1_Cap Semi_Miscellaneous Devices.IntLib")
+		(at 92.71 129.9972 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "26cbe221-3245-450c-a9f7-bda653ccc306")
+		(property "Reference" "C2"
+			(at 97.536 129.7432 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "Cap Semi"
+			(at 97.536 132.2832 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "C1206"
+			(at 92.71 129.9972 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 129.9972 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Capacitor (Semiconductor SIM Model)"
+			(at 92.71 129.9972 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PUBLISHED" "8-Jun-2000"
+			(at 92.964 124.4092 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "LATESTREVISIONDATE" "29-May-2009"
+			(at 92.964 124.4092 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "LATESTREVISIONNOTE" "IPC-7351 Footprint Added."
+			(at 92.964 124.4092 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PACKAGEREFERENCE" "C1206"
+			(at 92.964 124.4092 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PUBLISHER" "Altium Limited"
+			(at 92.964 124.4092 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PACKAGEDESCRIPTION" "Chip Capacitor"
+			(at 92.964 124.4092 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "100pF"
+			(at 97.536 134.8232 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "1"
+			(uuid "9821355c-1fa3-43c0-a9db-12703f2c641d")
+		)
+		(pin "2"
+			(uuid "27c8aa49-352a-43cc-a94a-619e7c0a5768")
+		)
+		(instances
+			(project "Neuron_Project"
+				(path "/3905f665-24ad-4235-ac5f-6322543a1637"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys:root_2_S4X8TS1RP_SamacSys.SchLib")
+		(at 121.92 114.7572 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2edd6cd1-1ddb-4f88-9695-e8d00daedd91")
+		(property "Reference" "D1"
+			(at 101.6 107.1372 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "S4X8TS1RP"
+			(at 101.6 119.8372 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C__Users_86135_Documents_AltiumLL_SamacSys.PcbLib:S4X8TS1RP"
+			(at 121.92 114.7572 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 114.7572 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Thyristor"
+			(at 121.92 114.7572 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DATASHEET LINK" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=33d0d5e7-46fd-406d-80ae-f94899e78783&filename=littelfuse-thyristor-sxx8xsx-datasheet"
+			(at 96.012 107.1372 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "HEIGHT" "1.93mm"
+			(at 96.012 107.1372 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER_NAME" "LITTELFUSE"
+			(at 96.012 107.1372 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "S4X8TS1RP"
+			(at 96.012 107.1372 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MOUSER PART NUMBER" "576-S4X8TS1RP"
+			(at 96.012 107.1372 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.com/Search/Refine.aspx?Keyword=576-S4X8TS1RP"
+			(at 96.012 107.1372 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ARROW PART NUMBER" ""
+			(at 96.012 107.1372 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ARROW PRICE/STOCK" ""
+			(at 96.012 107.1372 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "8e0e09f8-1ed6-452e-83a3-689817a90a4c")
+		)
+		(pin "2"
+			(uuid "63c7e4cd-8e69-4486-9934-a07bc82f72dc")
+		)
+		(pin "3"
+			(uuid "81a931ea-413b-4238-8988-aa4d0dd07e8d")
+		)
+		(pin "4"
+			(uuid "d6ef9b66-24fb-4ec6-8a86-47c1a21461a8")
+		)
+		(instances
+			(project "Neuron_Project"
+				(path "/3905f665-24ad-4235-ac5f-6322543a1637"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Miscellaneous Devices:root_3_Cap2_Miscellaneous Devices.IntLib")
+		(at 127 127.4572 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "38097889-7ee6-4b11-bc6a-bef5501a4721")
+		(property "Reference" "C3"
+			(at 126.746 129.7432 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Cap2"
+			(at 126.746 132.2832 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "CAPR5-4X5"
+			(at 127 127.4572 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 127.4572 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 127 127.4572 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PUBLISHED" "23-Sep-2002"
+			(at 122.174 124.4092 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "PACKAGEREFERENCE" "CAPR5-4X5"
+			(at 122.174 124.4092 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "PUBLISHER" "Altium Limited"
+			(at 122.174 124.4092 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "PACKAGEDESCRIPTION" "Capacitor; 2 Leads"
+			(at 122.174 124.4092 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "100pF"
+			(at 126.746 134.8232 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "8c170cf0-ce21-4ee4-8d7c-c914e9b0424e")
+		)
+		(pin "2"
+			(uuid "429fdebc-9780-4d5f-ae02-5f7e65a78d6e")
+		)
+		(instances
+			(project "Neuron_Project"
+				(path "/3905f665-24ad-4235-ac5f-6322543a1637"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Miscellaneous Devices:root_0_Res3_Miscellaneous Devices.IntLib")
+		(at 147.32 112.2172 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3e659bf0-64c5-417d-9758-bad02e35db5d")
+		(property "Reference" "R2"
+			(at 147.066 113.7412 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "Res3"
+			(at 147.066 118.3132 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "J1-0603"
+			(at 147.32 112.2172 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 112.2172 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 147.32 112.2172 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PUBLISHED" "8-Jun-2000"
+			(at 147.32 112.2172 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "LATESTREVISIONDATE" "29-May-2009"
+			(at 147.32 112.2172 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "LATESTREVISIONNOTE" "IPC-7351 Footprint Added."
+			(at 147.32 112.2172 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PACKAGEREFERENCE" "J1-0603"
+			(at 147.32 112.2172 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PUBLISHER" "Altium Limited"
+			(at 147.32 112.2172 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PACKAGEDESCRIPTION" "Chip Resistor"
+			(at 147.32 112.2172 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "1K"
+			(at 147.066 120.8532 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "1"
+			(uuid "0774104a-84c9-4cef-8d44-2f4114afaf4a")
+		)
+		(pin "2"
+			(uuid "ac22e47a-5a72-4b6c-833f-c4c69f397812")
+		)
+		(instances
+			(project "Neuron_Project"
+				(path "/3905f665-24ad-4235-ac5f-6322543a1637"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Miscellaneous Devices:root_0_Res3_Miscellaneous Devices.IntLib")
+		(at 105.41 100.7872 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "57e51458-1823-4fe5-8879-431809fe8a8e")
+		(property "Reference" "R1"
+			(at 105.156 102.3112 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "Res3"
+			(at 105.156 106.8832 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "J1-0603"
+			(at 105.41 100.7872 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 100.7872 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 105.41 100.7872 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PUBLISHED" "8-Jun-2000"
+			(at 105.41 100.7872 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "LATESTREVISIONDATE" "29-May-2009"
+			(at 105.41 100.7872 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "LATESTREVISIONNOTE" "IPC-7351 Footprint Added."
+			(at 105.41 100.7872 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PACKAGEREFERENCE" "J1-0603"
+			(at 105.41 100.7872 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PUBLISHER" "Altium Limited"
+			(at 105.41 100.7872 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PACKAGEDESCRIPTION" "Chip Resistor"
+			(at 105.41 100.7872 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "1K"
+			(at 109.22 102.0572 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "1"
+			(uuid "0c93bbc3-5678-4ec0-8c22-49eaf7306d89")
+		)
+		(pin "2"
+			(uuid "3697f5df-be54-4868-9e85-3c6826754be9")
+		)
+		(instances
+			(project "Neuron_Project"
+				(path "/3905f665-24ad-4235-ac5f-6322543a1637"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Neuron_Project-altium-import:GND_POWER_GROUND")
+		(at 72.39 96.9772 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "743fdf58-5355-43bb-bc32-ba72f6aa0a0e")
+		(property "Reference" "#PWR?"
+			(at 72.39 96.9772 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 103.3272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 96.9772 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 96.9772 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 96.9772 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "f4a0c0e2-02e0-462c-967b-f6f631d31c1f")
+		)
+		(instances
+			(project "Neuron_Project"
+				(path "/3905f665-24ad-4235-ac5f-6322543a1637"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Neuron_Project-altium-import:+5_BAR")
+		(at 69.85 91.8972 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8c1b8553-d23f-4265-89ce-d33c516bf4e6")
+		(property "Reference" "#PWR?"
+			(at 69.85 91.8972 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5"
+			(at 69.85 95.7072 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 91.8972 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 91.8972 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 91.8972 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "87710ac7-5ffd-4a6e-9afe-91cd48782358")
+		)
+		(instances
+			(project "Neuron_Project"
+				(path "/3905f665-24ad-4235-ac5f-6322543a1637"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Neuron_Project-altium-import:GND_POWER_GROUND")
+		(at 124.46 141.4272 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9fcc0d64-279e-4269-977d-20ecf22eaba6")
+		(property "Reference" "#PWR?"
+			(at 124.46 141.4272 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 147.7772 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 141.4272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 141.4272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 141.4272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "dba610b9-5f17-47af-9021-8879fb2f999a")
+		)
+		(instances
+			(project "Neuron_Project"
+				(path "/3905f665-24ad-4235-ac5f-6322543a1637"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "3214X-1-103E:root_0_3214X-1-103E_3214X-1-103E.SchLib")
+		(at 106.68 89.3572 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bf9235e6-2016-45b9-817a-cf3928754653")
+		(property "Reference" "VR1"
+			(at 101.346 93.1672 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "3214X-1-103E"
+			(at 101.346 95.7072 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "3214X1203E"
+			(at 106.68 89.3572 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 89.3572 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 kOhms 0.25W, 1/4W Gull Wing Surface Mount Trimmer Potentiometer Cermet 5 Turn Top Adjustment"
+			(at 106.68 89.3572 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "6432 Bourns"
+			(at 96.012 83.7692 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "AVAILABILITY" "Good"
+			(at 96.012 83.7692 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "*"
+			(at 96.012 83.7692 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MP" "3214X-1-103E"
+			(at 96.012 83.7692 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "SNAPEDA_LINK" "https://www.snapeda.com/parts/3214X-1-103E/Bourns/view-part/287161/?ref=snap"
+			(at 96.012 83.7692 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PRICE" "None"
+			(at 96.012 83.7692 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MF" "Bourns"
+			(at 96.012 83.7692 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/3214X-1-103E/?ref=eda"
+			(at 96.012 83.7692 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "CHECK_PRICES" "https://www.snapeda.com/parts/3214X-1-103E/Bourns/view-part/287161/?ref=eda"
+			(at 106.68 93.3732 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "d76455d4-874b-4c6f-aec0-be221d9cb1fe")
+		)
+		(pin "2"
+			(uuid "219871c4-3b85-452c-8c40-670e36b2364a")
+		)
+		(pin "3"
+			(uuid "4ed2b5e0-6bc5-402c-9844-4e8384e40964")
+		)
+		(instances
+			(project "Neuron_Project"
+				(path "/3905f665-24ad-4235-ac5f-6322543a1637"
+					(reference "VR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Neuron_Project-altium-import:GND_POWER_GROUND")
+		(at 138.43 141.4272 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c289808b-871f-4932-acdb-28f1da75410b")
+		(property "Reference" "#PWR?"
+			(at 138.43 141.4272 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 147.7772 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 141.4272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 141.4272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 141.4272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "72f40bc3-328a-470f-a273-6e196b12424b")
+		)
+		(instances
+			(project "Neuron_Project"
+				(path "/3905f665-24ad-4235-ac5f-6322543a1637"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Neuron_Project-altium-import:GND_POWER_GROUND")
+		(at 95.25 141.4272 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c49dce05-4612-4385-a562-630aadc951e7")
+		(property "Reference" "#PWR?"
+			(at 95.25 141.4272 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 147.7772 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 141.4272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 141.4272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 141.4272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "8184f5cb-7951-4072-b2a7-29ecc12994ce")
+		)
+		(instances
+			(project "Neuron_Project"
+				(path "/3905f665-24ad-4235-ac5f-6322543a1637"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Neuron_Project-altium-import:GND_POWER_GROUND")
+		(at 83.82 141.4272 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c5c9e11c-c160-440d-b4a9-8c4c55d8c34e")
+		(property "Reference" "#PWR?"
+			(at 83.82 141.4272 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 147.7772 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 141.4272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 141.4272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 141.4272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "0a4c4d7e-ba0e-40c1-ac84-df987a908333")
+		)
+		(instances
+			(project "Neuron_Project"
+				(path "/3905f665-24ad-4235-ac5f-6322543a1637"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SSW-102-01-X-S:root_1_SSW-102-01-X-S_SSW-102-01-X-S.SchLib")
+		(at 69.85 75.3872 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cdd8cc47-2f17-43f7-ba10-429f5d18c347")
+		(property "Reference" "J1"
+			(at 67.31 70.3072 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "SSW-102-01-X-S"
+			(at 67.31 88.5952 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "TSW-102-XX-YY-S"
+			(at 69.85 75.3872 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 75.3872 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2 Position Receptacle Connector Through Hole"
+			(at 69.85 75.3872 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" "SSW-102-01-G-S"
+			(at 67.31 70.3072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/SSW-102-01-G-S/?ref=eda"
+			(at 67.31 70.3072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PRICE" "None"
+			(at 67.31 70.3072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "SNAPEDA_LINK" "https://www.snapeda.com/parts/SSW-102-01-G-S/Samtec/view-part/4872079/?ref=snap"
+			(at 67.31 70.3072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "CHECK_PRICES" "https://www.snapeda.com/parts/SSW-102-01-G-S/Samtec/view-part/4872079/?ref=eda"
+			(at 67.31 70.3072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 67.31 70.3072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MF" "Samtec"
+			(at 67.31 70.3072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "AVAILABILITY" "Good"
+			(at 67.31 70.3072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "*"
+			(at 67.31 70.3072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "01"
+			(uuid "0347e7ad-5bc7-455c-994a-762ce41ecdda")
+		)
+		(pin "02"
+			(uuid "9c3a8ad8-a7a5-4d5d-9d0b-a4414007be4a")
+		)
+		(instances
+			(project "Neuron_Project"
+				(path "/3905f665-24ad-4235-ac5f-6322543a1637"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Miscellaneous Devices:root_1_Cap Semi_Miscellaneous Devices.IntLib")
+		(at 135.89 128.7272 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d0eb42ca-52cd-4e1d-bff7-82cef4a9d65c")
+		(property "Reference" "C4"
+			(at 140.716 128.4732 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "Cap Semi"
+			(at 140.716 131.0132 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "C1206"
+			(at 135.89 128.7272 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 128.7272 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Capacitor (Semiconductor SIM Model)"
+			(at 135.89 128.7272 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PUBLISHED" "8-Jun-2000"
+			(at 136.144 123.1392 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "LATESTREVISIONDATE" "29-May-2009"
+			(at 136.144 123.1392 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "LATESTREVISIONNOTE" "IPC-7351 Footprint Added."
+			(at 136.144 123.1392 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PACKAGEREFERENCE" "C1206"
+			(at 136.144 123.1392 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PUBLISHER" "Altium Limited"
+			(at 136.144 123.1392 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PACKAGEDESCRIPTION" "Chip Capacitor"
+			(at 136.144 123.1392 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "100pF"
+			(at 140.716 133.5532 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "1"
+			(uuid "441f36d9-2eea-4635-8fae-b84566f2ca19")
+		)
+		(pin "2"
+			(uuid "4aa4e6d9-826f-4d6d-aa7f-83480403ae45")
+		)
+		(instances
+			(project "Neuron_Project"
+				(path "/3905f665-24ad-4235-ac5f-6322543a1637"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "3214X-1-103E:root_2_mirrored_3214X-1-103E_3214X-1-103E.SchLib")
+		(at 180.34 109.6772 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d7ccf67a-5de7-4355-a753-6f2af3c76f2a")
+		(property "Reference" "VR2"
+			(at 175.006 108.4072 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "3214X-1-103E"
+			(at 175.26 104.5972 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "3214X1203E"
+			(at 180.34 109.6772 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 109.6772 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 kOhms 0.25W, 1/4W Gull Wing Surface Mount Trimmer Potentiometer Cermet 5 Turn Top Adjustment"
+			(at 180.34 109.6772 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "6432 Bourns"
+			(at 169.672 108.4072 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "AVAILABILITY" "Good"
+			(at 169.672 108.4072 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "*"
+			(at 169.672 108.4072 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MP" "3214X-1-103E"
+			(at 169.672 108.4072 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "SNAPEDA_LINK" "https://www.snapeda.com/parts/3214X-1-103E/Bourns/view-part/287161/?ref=snap"
+			(at 169.672 108.4072 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PRICE" "None"
+			(at 169.672 108.4072 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MF" "Bourns"
+			(at 169.672 108.4072 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/3214X-1-103E/?ref=eda"
+			(at 169.672 108.4072 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "CHECK_PRICES" "https://www.snapeda.com/parts/3214X-1-103E/Bourns/view-part/287161/?ref=eda"
+			(at 180.34 113.6932 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "3d8690da-3b6b-4f63-9393-968a6b883375")
+		)
+		(pin "2"
+			(uuid "7edb5b6b-236f-4620-9412-4a448965e836")
+		)
+		(pin "3"
+			(uuid "01f53e94-e053-4f53-8bbd-45b0e90090a8")
+		)
+		(instances
+			(project "Neuron_Project"
+				(path "/3905f665-24ad-4235-ac5f-6322543a1637"
+					(reference "VR2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Neuron_Project-altium-import:+5_BAR")
+		(at 64.77 119.8372 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e0acb4cc-ae89-46da-8c0f-e4c5fb1787d7")
+		(property "Reference" "#PWR?"
+			(at 64.77 119.8372 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5"
+			(at 64.77 123.6472 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 119.8372 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 119.8372 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 119.8372 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "c17779db-ee8d-4ad2-a5a8-1205f23ad1e9")
+		)
+		(instances
+			(project "Neuron_Project"
+				(path "/3905f665-24ad-4235-ac5f-6322543a1637"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Miscellaneous Devices:root_3_Cap2_Miscellaneous Devices.IntLib")
+		(at 86.36 127.4572 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e1a9ad9e-86f4-49c4-893d-ad3de09f5599")
+		(property "Reference" "C1"
+			(at 86.106 129.7432 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Cap2"
+			(at 86.106 132.2832 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "CAPR5-4X5"
+			(at 86.36 127.4572 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 127.4572 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 86.36 127.4572 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PUBLISHED" "23-Sep-2002"
+			(at 81.534 124.4092 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "PACKAGEREFERENCE" "CAPR5-4X5"
+			(at 81.534 124.4092 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "PUBLISHER" "Altium Limited"
+			(at 81.534 124.4092 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "PACKAGEDESCRIPTION" "Capacitor; 2 Leads"
+			(at 81.534 124.4092 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "100pF"
+			(at 86.106 134.8232 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "3d2fa373-44db-470b-a4a6-ce0996fad11d")
+		)
+		(pin "2"
+			(uuid "3442103c-7de2-4802-a070-6e40eb5f8189")
+		)
+		(instances
+			(project "Neuron_Project"
+				(path "/3905f665-24ad-4235-ac5f-6322543a1637"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Neuron_Project-altium-import:GND_POWER_GROUND")
+		(at 160.02 141.4272 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f28e0dad-a300-4edc-ab15-2ba26d44d691")
+		(property "Reference" "#PWR?"
+			(at 160.02 141.4272 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 147.7772 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 141.4272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 141.4272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 141.4272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "ce088766-c8cd-4ec0-8429-867c5f358a16")
+		)
+		(instances
+			(project "Neuron_Project"
+				(path "/3905f665-24ad-4235-ac5f-6322543a1637"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Neuron_Project-altium-import:GND_POWER_GROUND")
+		(at 193.04 141.4272 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "faa05146-06fa-4355-983a-a0ce1bf1a030")
+		(property "Reference" "#PWR?"
+			(at 193.04 141.4272 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 193.04 147.7772 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 141.4272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 141.4272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 141.4272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "68e5ed1a-335c-409c-b49b-67cff397d5b4")
+		)
+		(instances
+			(project "Neuron_Project"
+				(path "/3905f665-24ad-4235-ac5f-6322543a1637"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "2")
+		)
+	)
+	(embedded_fonts no)
+)
