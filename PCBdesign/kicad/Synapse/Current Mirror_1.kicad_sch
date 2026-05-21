@@ -5,344 +5,6 @@
 	(uuid "ae9a5a7b-88f2-4406-9451-b361779bd137")
 	(paper "A4")
 	(lib_symbols
-		(symbol "*:1_0_ALD1105PBL_*"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Integrated Circuit"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*DIP762W51P254L1828H508Q14N*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "1_0_ALD1105PBL_*_1_0"
-				(rectangle
-					(start 2.54 -20.32)
-					(end -17.78 -5.08)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 128 0 0 1)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 270)
-					(length 5.08)
-					(name "DN1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 270)
-					(length 5.08)
-					(name "GN1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 270)
-					(length 5.08)
-					(name "SN1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 270)
-					(length 5.08)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 0 270)
-					(length 5.08)
-					(name "DP1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 0 270)
-					(length 5.08)
-					(name "GP1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -15.24 0 270)
-					(length 5.08)
-					(name "SP1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -15.24 -25.4 90)
-					(length 5.08)
-					(name "SP2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -25.4 90)
-					(length 5.08)
-					(name "GP2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -25.4 90)
-					(length 5.08)
-					(name "DP2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -25.4 90)
-					(length 5.08)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -25.4 90)
-					(length 5.08)
-					(name "SN2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -25.4 90)
-					(length 5.08)
-					(name "GN2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -25.4 90)
-					(length 5.08)
-					(name "DN2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Miscellaneous Devices:1_0_Res3_Miscellaneous Devices.IntLib"
 			(pin_numbers
 				(hide yes)
@@ -1080,7 +742,6 @@
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1091,7 +752,6 @@
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1203,6 +863,608 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Q_NPN_CurrentMirror"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 6.096 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_NPN_CurrentMirror"
+				(at 6.096 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at -2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "NPN bipolar junction transistors, current mirror configuration"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "BJT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q_NPN_CurrentMirror_0_1"
+				(circle
+					(center -5.08 3.048)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -3.175 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -3.175 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -1.778) (xy -4.318 -1.27) (xy -4.826 -2.286) (xy -3.81 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -1.905) (xy -3.175 1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 3.048) (xy -5.08 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy -3.175 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -1.905) (xy 3.175 1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.778) (xy 4.318 -1.27) (xy 4.826 -2.286) (xy 3.81 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 3.175 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 3.175 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_NPN_CurrentMirror_1_1"
+				(pin passive line
+					(at 5.08 5.08 270)
+					(length 2.54)
+					(name "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 270)
+					(length 2.54)
+					(name "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 90)
+					(length 2.54)
+					(name "E1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 90)
+					(length 2.54)
+					(name "E2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Q_PNP_CurrentMirror"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 6.096 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_PNP_CurrentMirror"
+				(at 6.096 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at -2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "Double PNP bipolar junction transistors, current mirror configuration"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "BJT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q_PNP_CurrentMirror_0_1"
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -3.175 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -3.175 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.08 -3.048)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.937 1.905) (xy -4.445 1.397) (xy -3.429 0.889) (xy -3.937 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -1.905) (xy -3.175 1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -3.048) (xy -5.08 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy -3.175 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -1.905) (xy 3.175 1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.937 1.905) (xy 4.445 1.397) (xy 3.429 0.889) (xy 3.937 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 3.175 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 3.175 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_PNP_CurrentMirror_1_1"
+				(pin passive line
+					(at 5.08 -5.08 90)
+					(length 2.54)
+					(name "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 90)
+					(length 2.54)
+					(name "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 270)
+					(length 2.54)
+					(name "E1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 270)
+					(length 2.54)
+					(name "E2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Current Mirror_1"
 		(exclude_from_sim no)
@@ -1235,52 +1497,16 @@
 		(uuid "2321cad3-7367-41fc-882b-8365881c5f42")
 	)
 	(junction
-		(at 129.54 102.0572)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "30b77a6a-24c8-4bd2-9a0a-0d5dda3cc936")
-	)
-	(junction
-		(at 154.94 112.2172)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "470bcce6-2fb2-47e4-adc3-a65e5c562523")
-	)
-	(junction
-		(at 118.11 104.5972)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "641db99c-d99c-421b-947b-dc878e7b29c6")
-	)
-	(junction
-		(at 160.02 109.6772)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86d5c2f5-4d2e-478b-b8c9-42f051f66132")
-	)
-	(junction
-		(at 129.54 96.9772)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd674757-4c7a-419e-b319-4699b4ed0bf3")
-	)
-	(junction
-		(at 129.54 99.5172)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d6dc6da6-0196-482e-b01c-6df16793e655")
-	)
-	(junction
-		(at 165.1 96.9772)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ece1d8dc-488d-4ba7-bb33-66c6f812a844")
-	)
-	(junction
 		(at 96.52 96.9772)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f87bce2d-e672-4dd1-af8e-d11d750681ca")
+	)
+	(junction
+		(at 120.65 104.5972)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234560001")
 	)
 	(wire
 		(pts
@@ -1291,166 +1517,6 @@
 			(type default)
 		)
 		(uuid "0b9d42be-5572-48dc-b32e-9b7eaaf8a732")
-	)
-	(wire
-		(pts
-			(xy 96.52 131.2672) (xy 96.52 113.4872)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10e2e486-aaf8-4cbc-8357-e4fbeca03583")
-	)
-	(wire
-		(pts
-			(xy 129.54 118.5672) (xy 129.54 112.2172)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15b1a102-57a6-4bee-ab0e-b54d1b8afe4d")
-	)
-	(wire
-		(pts
-			(xy 149.86 104.5972) (xy 144.78 104.5972)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "243f5138-1463-4092-8472-a6daefc41505")
-	)
-	(wire
-		(pts
-			(xy 129.54 107.1372) (xy 121.92 107.1372)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e9f79ab-388f-40d7-bc7e-dc8bf03e8346")
-	)
-	(wire
-		(pts
-			(xy 154.94 107.1372) (xy 160.02 107.1372)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40c8e323-9637-4d18-929a-393b48965fff")
-	)
-	(wire
-		(pts
-			(xy 160.02 104.5972) (xy 154.94 104.5972)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4160835d-f75d-45bb-8bd5-dea513296855")
-	)
-	(wire
-		(pts
-			(xy 154.94 99.5172) (xy 129.54 99.5172)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45a91aad-67ec-477b-9388-bf6d562fe483")
-	)
-	(wire
-		(pts
-			(xy 154.94 102.0572) (xy 129.54 102.0572)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4da882ad-f1e3-4654-9e0d-d6fcf0b80063")
-	)
-	(wire
-		(pts
-			(xy 144.78 112.2172) (xy 154.94 112.2172)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e10bcbb-8e6d-43eb-83f3-2bb5b1aff652")
-	)
-	(wire
-		(pts
-			(xy 121.92 124.9172) (xy 172.72 124.9172)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "571e7614-5d97-47f3-9bf9-af627da5641c")
-	)
-	(wire
-		(pts
-			(xy 160.02 121.1072) (xy 125.73 121.1072)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "620f2e9e-65df-4c3b-bf2b-9c85aaf553f2")
-	)
-	(wire
-		(pts
-			(xy 154.94 112.2172) (xy 154.94 118.5672)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "625b148e-084a-4b7d-81b7-f3596dd3870a")
-	)
-	(wire
-		(pts
-			(xy 160.02 109.6772) (xy 160.02 121.1072)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68ed6cef-b31c-4166-b024-ed0aad8fdbd7")
-	)
-	(wire
-		(pts
-			(xy 154.94 118.5672) (xy 129.54 118.5672)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71859ce7-c54f-4d2b-b57d-5a981ae50cbf")
-	)
-	(wire
-		(pts
-			(xy 118.11 102.0572) (xy 118.11 104.5972)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "761ae949-3998-4cc5-84ba-f4bb78de13d9")
-	)
-	(wire
-		(pts
-			(xy 129.54 99.5172) (xy 129.54 96.9772)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dd42026-b3d7-464d-8ab4-09c7c6e48f99")
 	)
 	(wire
 		(pts
@@ -1474,36 +1540,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 104.5972) (xy 118.11 131.2672)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c207b40-fe60-469d-9a7f-36df58be46b1")
-	)
-	(wire
-		(pts
-			(xy 114.3 96.9772) (xy 129.54 96.9772)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d4c636f-4a0e-41d7-a09e-1e4dabf396a4")
-	)
-	(wire
-		(pts
-			(xy 125.73 121.1072) (xy 125.73 109.6772)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f176b4e-fe59-48a0-a25a-6a6fef54a535")
-	)
-	(wire
-		(pts
 			(xy 96.52 96.9772) (xy 96.52 105.8672)
 		)
 		(stroke
@@ -1514,83 +1550,23 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 109.6772) (xy 129.54 109.6772)
+			(xy 96.52 131.2672) (xy 96.52 113.4872)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9841e4f4-b294-4296-8866-dc8467e06323")
+		(uuid "10e2e486-aaf8-4cbc-8357-e4fbeca03583")
 	)
 	(wire
 		(pts
-			(xy 160.02 109.6772) (xy 165.1 109.6772)
+			(xy 83.82 114.7572) (xy 83.82 96.9772)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9ceb3097-6307-436b-88b8-47a2a01faf55")
-	)
-	(wire
-		(pts
-			(xy 129.54 102.0572) (xy 118.11 102.0572)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0a1c248-69a5-4162-b0a2-2228a2881890")
-	)
-	(wire
-		(pts
-			(xy 144.78 104.5972) (xy 144.78 112.2172)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1d040cc-2551-449d-9a87-681e2b33bbb5")
-	)
-	(wire
-		(pts
-			(xy 154.94 109.6772) (xy 160.02 109.6772)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbee5901-3e2b-4b74-a291-105873b6565a")
-	)
-	(wire
-		(pts
-			(xy 165.1 96.9772) (xy 172.72 96.9772)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4db16fc-ccf1-4b7d-860e-e98381631c5a")
-	)
-	(wire
-		(pts
-			(xy 160.02 107.1372) (xy 160.02 109.6772)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d91aed9b-85fc-42eb-b95a-7c79d79b362e")
-	)
-	(wire
-		(pts
-			(xy 154.94 96.9772) (xy 165.1 96.9772)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db7fc781-b703-47b1-88a9-03734765b188")
+		(uuid "fa7a8c8b-29e7-41bc-8712-8e030d32c7af")
 	)
 	(wire
 		(pts
@@ -1604,43 +1580,83 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 104.5972) (xy 118.11 104.5972)
+			(xy 114.3 96.9772) (xy 120.65 96.9772)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f27229fc-a6fd-4bea-b05b-c7ed06fd90dc")
+		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234560010")
 	)
 	(wire
 		(pts
-			(xy 121.92 107.1372) (xy 121.92 124.9172)
+			(xy 120.65 96.9772) (xy 120.65 104.5972)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f58039bd-5d31-4889-95d5-48946419c3e0")
+		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234560011")
 	)
 	(wire
 		(pts
-			(xy 83.82 114.7572) (xy 83.82 96.9772)
+			(xy 120.65 104.5972) (xy 120.65 109.6772)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fa7a8c8b-29e7-41bc-8712-8e030d32c7af")
+		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234560012")
 	)
-	(label ""
-		(at 160.02 104.5972 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 130.81 109.6772) (xy 165.1 109.6772)
 		)
-		(uuid "1d55cc49-4860-422c-b2b0-2a2d5417531b")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234560013")
+	)
+	(wire
+		(pts
+			(xy 165.1 96.9772) (xy 172.72 96.9772)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234560014")
+	)
+	(wire
+		(pts
+			(xy 130.81 104.5972) (xy 155.0 104.5972)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234560015")
+	)
+	(wire
+		(pts
+			(xy 155.0 104.5972) (xy 155.0 124.9172)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234560016")
+	)
+	(wire
+		(pts
+			(xy 155.0 124.9172) (xy 172.72 124.9172)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234560017")
 	)
 	(hierarchical_label "INP"
 		(shape input)
@@ -1674,80 +1690,6 @@
 			(justify left)
 		)
 		(uuid "e76f688d-0563-4e11-b35f-f6c3d876bfd1")
-	)
-	(symbol
-		(lib_id "Synapse_LPS-altium-import:+5V_BAR")
-		(at 160.02 104.5972 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0efd9ff4-c58c-40e5-ab75-ed99fb8047d5")
-		(property "Reference" "#PWR?"
-			(at 160.02 104.5972 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 160.02 100.7872 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 104.5972 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 104.5972 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 160.02 104.5972 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "462a3d9f-54c9-4bba-be88-33f641bc80be")
-		)
-		(instances
-			(project "Synapse_LPS"
-				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7/efb34e1f-b4a1-4d0a-a367-85b7a624cd54"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Miscellaneous Devices:1_3_Cap2_Miscellaneous Devices.IntLib")
@@ -1813,54 +1755,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "PUBLISHED" "23-Sep-2002"
-			(at 81.534 114.2492 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEREFERENCE" "CAPR5-4X5"
-			(at 81.534 114.2492 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PUBLISHER" "Altium Limited"
-			(at 81.534 114.2492 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEDESCRIPTION" "Capacitor; 2 Leads"
-			(at 81.534 114.2492 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 			)
 		)
 		(property "ALTIUM_VALUE" "100pF"
@@ -1953,78 +1847,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "PUBLISHED" "8-Jun-2000"
-			(at 164.084 96.4692 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONDATE" "29-May-2009"
-			(at 164.084 96.4692 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONNOTE" "IPC-7351 Footprint Added."
-			(at 164.084 96.4692 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEREFERENCE" "J1-0603"
-			(at 164.084 96.4692 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PUBLISHER" "Altium Limited"
-			(at 164.084 96.4692 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEDESCRIPTION" "Chip Resistor"
-			(at 164.084 96.4692 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 			)
 		)
 		(property "ALTIUM_VALUE" "1K"
@@ -2128,293 +1950,6 @@
 		)
 	)
 	(symbol
-		(lib_id "*:1_0_ALD1105PBL_*")
-		(at 129.54 96.9772 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9b6796db-e2a9-474e-bba1-9cf44321d9ba")
-		(property "Reference" "IC2"
-			(at 134.62 94.4372 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "ALD1105PBL"
-			(at 134.62 117.2972 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "C__Users_86135_Documents_AltiumLL_SamacSys.PcbLib:DIP762W51P254L1828H508Q14N"
-			(at 129.54 96.9772 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 96.9772 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Integrated Circuit"
-			(at 129.54 96.9772 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DATASHEET LINK" "https://www.mouser.es/datasheet/2/8/ALD1105-963896.pdf"
-			(at 129.032 94.4372 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "HEIGHT" "5.08mm"
-			(at 129.032 94.4372 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Advanced Linear Devices Inc."
-			(at 129.032 94.4372 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "ALD1105PBL"
-			(at 129.032 94.4372 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MOUSER PART NUMBER" "585-ALD1105PBL"
-			(at 129.032 94.4372 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Advanced-Linear-Devices/ALD1105PBL?qs=Du6x3Vjr3lUq%2FSLBVb98Ng%3D%3D"
-			(at 129.032 94.4372 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "ARROW PART NUMBER" ""
-			(at 129.032 94.4372 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "ARROW PRICE/STOCK" ""
-			(at 129.032 94.4372 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(pin "1"
-			(uuid "501d5f09-e7af-4ee6-866a-010ca53bf6c3")
-		)
-		(pin "2"
-			(uuid "8dd0e91a-2ddb-4e2b-a5d3-a55367165e0c")
-		)
-		(pin "3"
-			(uuid "19bf68b0-8a7f-40a0-ba8f-61452b829458")
-		)
-		(pin "4"
-			(uuid "3b43a52b-5f95-4741-97ee-79428b743951")
-		)
-		(pin "5"
-			(uuid "0ce0e682-12e5-449c-a7e3-5b66483f54b4")
-		)
-		(pin "6"
-			(uuid "bbe8c994-8fd9-46d5-bc54-7886cc55082e")
-		)
-		(pin "7"
-			(uuid "7cedfc24-f0b9-4588-adc4-fb57a2cdf2a6")
-		)
-		(pin "14"
-			(uuid "4bc29268-63e8-4f00-be93-ed6fb7f708ba")
-		)
-		(pin "13"
-			(uuid "a43e9797-37c4-4018-8b00-632e0d882cf5")
-		)
-		(pin "12"
-			(uuid "1e9b9e21-9893-41a9-985f-26bffdbaaf49")
-		)
-		(pin "11"
-			(uuid "cc3b8901-8d4d-47b2-bffc-5cecd003c967")
-		)
-		(pin "10"
-			(uuid "5eae274e-6ff5-4fce-bc08-c5e92e8240cc")
-		)
-		(pin "9"
-			(uuid "74774f19-3c0c-49eb-b86e-04b87dce7888")
-		)
-		(pin "8"
-			(uuid "973a1345-e6f5-4ef9-be0d-eb1d32898007")
-		)
-		(instances
-			(project "Synapse_LPS"
-				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7/efb34e1f-b4a1-4d0a-a367-85b7a624cd54"
-					(reference "IC2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Synapse_LPS-altium-import:GND_POWER_GROUND")
-		(at 118.11 131.2672 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a9307744-edc8-4453-8c24-8671491247b1")
-		(property "Reference" "#PWR?"
-			(at 118.11 131.2672 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 118.11 137.6172 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 131.2672 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 131.2672 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 118.11 131.2672 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "db2b0c36-5165-4d05-88e6-afdd1a4305ea")
-		)
-		(instances
-			(project "Synapse_LPS"
-				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7/efb34e1f-b4a1-4d0a-a367-85b7a624cd54"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Miscellaneous Devices:1_0_Res3_Miscellaneous Devices.IntLib")
 		(at 104.14 94.4372 90)
 		(unit 1)
@@ -2478,78 +2013,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "PUBLISHED" "8-Jun-2000"
-			(at 104.14 94.4372 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "LATESTREVISIONDATE" "29-May-2009"
-			(at 104.14 94.4372 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "LATESTREVISIONNOTE" "IPC-7351 Footprint Added."
-			(at 104.14 94.4372 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "PACKAGEREFERENCE" "J1-0603"
-			(at 104.14 94.4372 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "PUBLISHER" "Altium Limited"
-			(at 104.14 94.4372 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "PACKAGEDESCRIPTION" "Chip Resistor"
-			(at 104.14 94.4372 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
 			)
 		)
 		(property "ALTIUM_VALUE" "1K"
@@ -2644,78 +2107,6 @@
 				)
 			)
 		)
-		(property "PUBLISHED" "8-Jun-2000"
-			(at 94.234 105.3592 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "LATESTREVISIONDATE" "29-May-2009"
-			(at 94.234 105.3592 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "LATESTREVISIONNOTE" "IPC-7351 Footprint Added."
-			(at 94.234 105.3592 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "PACKAGEREFERENCE" "C1206"
-			(at 94.234 105.3592 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "PUBLISHER" "Altium Limited"
-			(at 94.234 105.3592 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "PACKAGEDESCRIPTION" "Chip Capacitor"
-			(at 94.234 105.3592 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
 		(property "ALTIUM_VALUE" "100uF"
 			(at 98.806 115.7732 0)
 			(show_name no)
@@ -2806,6 +2197,476 @@
 		)
 		(pin ""
 			(uuid "be5b7829-b2dc-4aaf-9952-4f3396cdba89")
+		)
+		(instances
+			(project "Synapse_LPS"
+				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7/efb34e1f-b4a1-4d0a-a367-85b7a624cd54"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NPN_CurrentMirror")
+		(at 125.73 114.7572 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234560020")
+		(property "Reference" "Q1"
+			(at 131.826 113.4872 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC547"
+			(at 131.826 116.0272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 114.7572 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 114.7572 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 114.7572 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "C1"
+			(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234560021")
+		)
+		(pin "C2"
+			(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234560022")
+		)
+		(pin "E1"
+			(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234560023")
+		)
+		(pin "E2"
+			(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234560024")
+		)
+		(instances
+			(project "Synapse_LPS"
+				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7/efb34e1f-b4a1-4d0a-a367-85b7a624cd54"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_PNP_CurrentMirror")
+		(at 125.73 99.5172 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234560030")
+		(property "Reference" "Q2"
+			(at 131.826 98.2472 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC557"
+			(at 131.826 100.7872 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 99.5172 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 99.5172 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 99.5172 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "C1"
+			(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234560031")
+		)
+		(pin "C2"
+			(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234560032")
+		)
+		(pin "E1"
+			(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234560033")
+		)
+		(pin "E2"
+			(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234560034")
+		)
+		(instances
+			(project "Synapse_LPS"
+				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7/efb34e1f-b4a1-4d0a-a367-85b7a624cd54"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synapse_LPS-altium-import:+5V_BAR")
+		(at 120.65 94.4372 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234560040")
+		(property "Reference" "#PWR?"
+			(at 120.65 94.4372 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 120.65 90.6272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 94.4372 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 94.4372 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 94.4372 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234560041")
+		)
+		(instances
+			(project "Synapse_LPS"
+				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7/efb34e1f-b4a1-4d0a-a367-85b7a624cd54"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synapse_LPS-altium-import:+5V_BAR")
+		(at 130.81 94.4372 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234560050")
+		(property "Reference" "#PWR?"
+			(at 130.81 94.4372 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 130.81 90.6272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 94.4372 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 94.4372 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 94.4372 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234560051")
+		)
+		(instances
+			(project "Synapse_LPS"
+				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7/efb34e1f-b4a1-4d0a-a367-85b7a624cd54"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synapse_LPS-altium-import:GND_POWER_GROUND")
+		(at 120.65 119.8372 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234560060")
+		(property "Reference" "#PWR?"
+			(at 120.65 119.8372 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 126.1872 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 119.8372 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 119.8372 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 119.8372 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234560061")
+		)
+		(instances
+			(project "Synapse_LPS"
+				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7/efb34e1f-b4a1-4d0a-a367-85b7a624cd54"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synapse_LPS-altium-import:GND_POWER_GROUND")
+		(at 130.81 119.8372 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234560070")
+		(property "Reference" "#PWR?"
+			(at 130.81 119.8372 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 126.1872 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 119.8372 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 119.8372 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 119.8372 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234560071")
 		)
 		(instances
 			(project "Synapse_LPS"

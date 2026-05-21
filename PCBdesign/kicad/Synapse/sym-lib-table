@@ -8,4 +8,5 @@
 	(lib (name "SSW-102-01-X-S") (type "Altium") (uri "${KIPRJMOD}/SSW-102-01-X-S.SchLib") (options "") (descr ""))
 	(lib (name "SamacSys") (type "Altium") (uri "${KIPRJMOD}/SamacSys.SchLib") (options "") (descr ""))
 	(lib (name "TSW-102-07-G-S") (type "Altium") (uri "${KIPRJMOD}/TSW-102-07-G-S.SchLib") (options "") (descr ""))
+	(lib (name "Device") (type "KiCad") (uri "${KICAD10_SYMBOL_DIR}/Device.kicad_sym") (options "") (descr "Discrete components"))
 )
