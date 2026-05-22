@@ -1,0 +1,15 @@
+# KiCad temp/generated files
+**/*-backups/
+**/*.bak
+**/*.lck
+**/~*.pro.lck
+**/.kicad_sch
+
+# SamacSys proprietary libraries (license prohibits public distribution)
+LIB_*/
+LIB_*.zip
+**/DMN2041UVT-7.kicad_sym
+**/DMN2041UVT-7.lib
+**/DMP2110UVTQ-7.kicad_sym
+**/DMP2110UVTQ-7.lib
+**/SOT95P280X100-6N.kicad_mod
