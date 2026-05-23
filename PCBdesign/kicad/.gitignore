@@ -3,3 +3,8 @@
 **/*.lck
 **/~*.pro.lck
 **/.kicad_sch
+
+# SamacSys lib files — license prohibits redistribution
+**/DMN2041UVT-7.*
+**/DMP2110UVTQ-7.*
+**/SOT95P280X100-6N.kicad_mod

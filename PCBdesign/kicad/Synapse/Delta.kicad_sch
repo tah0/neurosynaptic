@@ -5,6 +5,128 @@
 	(uuid "afa0dca8-1e10-4c2f-b71f-7ed91869b571")
 	(paper "A4")
 	(lib_symbols
+		(symbol "*:0_1_TSW-102-07-G-S_*"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*TSW-102-XX-YY-S*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0_1_TSW-102-07-G-S_*_1_0"
+				(rectangle
+					(start -5.08 -15.24)
+					(end 2.54 -5.08)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 270)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 270)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Q_NPN"
 			(pin_numbers
 				(hide yes)
@@ -158,216 +280,6 @@
 				)
 			)
 			(symbol "Q_NPN_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:Q_PNP"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_PNP"
-				(at 5.08 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "PNP bipolar junction transistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "BJT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Q_PNP_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Q_PNP_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -726,6 +638,216 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Q_PNP"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_PNP"
+				(at 5.08 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "PNP bipolar junction transistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "BJT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q_PNP_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Q_PNP_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Q_PNP_CurrentMirror"
 			(pin_numbers
 				(hide yes)
@@ -1017,128 +1139,6 @@
 						)
 					)
 					(number "E2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "*:0_1_TSW-102-07-G-S_*"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*TSW-102-XX-YY-S*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "0_1_TSW-102-07-G-S_*_1_0"
-				(rectangle
-					(start -5.08 -15.24)
-					(end 2.54 -5.08)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 128 0 0 1)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 270)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 270)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2256,6 +2256,12 @@
 		(uuid "2b5eafcd-21dd-4259-8f41-63558c1edf48")
 	)
 	(junction
+		(at 251.46 90.6272)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44863d45-15dd-4cef-a1dd-a1c3382315ba")
+	)
+	(junction
 		(at 228.6 88.0872)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2278,6 +2284,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd818442-dfa7-4426-9ffa-c65b27ccf97a")
+	)
+	(junction
+		(at 76.2 47.4472)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f44cc21a-637d-4e71-b1ba-2f15a91ebac8")
 	)
 	(wire
 		(pts
@@ -2361,6 +2373,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 44.9072) (xy 76.2 47.4472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d8b8935-9dbd-44d6-b8cf-7f45a6b7bcda")
+	)
+	(wire
+		(pts
 			(xy 78.74 57.6072) (xy 78.74 47.4472)
 		)
 		(stroke
@@ -2381,6 +2403,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 75.3872) (xy 251.46 80.4672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f4f2b24-e455-4bee-8ca3-44b1dc8b404c")
+	)
+	(wire
+		(pts
 			(xy 175.26 70.3072) (xy 175.26 75.3872)
 		)
 		(stroke
@@ -2388,6 +2420,16 @@
 			(type default)
 		)
 		(uuid "307970c1-b7ce-4044-9451-11c554087788")
+	)
+	(wire
+		(pts
+			(xy 86.36 52.5272) (xy 68.58 52.5272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34b1bb0b-406b-4429-b273-799fd53e3dd2")
 	)
 	(wire
 		(pts
@@ -2461,6 +2503,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 75.3872) (xy 251.46 75.3872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c97d26b-9020-4f60-bb25-eb9f2508bf22")
+	)
+	(wire
+		(pts
 			(xy 68.58 83.0072) (xy 104.14 83.0072)
 		)
 		(stroke
@@ -2471,6 +2523,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 88.0872) (xy 228.6 88.0872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "541a0c47-21b4-48a1-a698-00619ae0cbd6")
+	)
+	(wire
+		(pts
 			(xy 68.58 116.0272) (xy 68.58 88.0872)
 		)
 		(stroke
@@ -2478,6 +2540,16 @@
 			(type default)
 		)
 		(uuid "6f63ff93-affa-4f90-9aaf-b4051c81e445")
+	)
+	(wire
+		(pts
+			(xy 238.76 85.5472) (xy 238.76 88.0872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73f59959-3263-4471-af64-4b00b89c639c")
 	)
 	(wire
 		(pts
@@ -2511,6 +2583,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 52.5272) (xy 68.58 62.6872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "851af471-41ac-43f3-b2f6-30c1ff6c159c")
+	)
+	(wire
+		(pts
 			(xy 76.2 95.7072) (xy 114.3 95.7072)
 		)
 		(stroke
@@ -2521,7 +2603,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 47.4472) (xy 68.58 47.4472)
+			(xy 68.58 47.4472) (xy 78.74 47.4472)
 		)
 		(stroke
 			(width 0)
@@ -2551,6 +2633,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 80.4672) (xy 226.06 80.4672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be24423f-17fd-402e-b1ce-75bc34a75c82")
+	)
+	(wire
+		(pts
 			(xy 233.68 105.8672) (xy 226.06 105.8672)
 		)
 		(stroke
@@ -2571,6 +2663,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 90.6272) (xy 259.08 105.8672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c71b0f5a-9bdd-4c42-a037-a5aab0ea53e2")
+	)
+	(wire
+		(pts
 			(xy 226.06 80.4672) (xy 226.06 103.3272)
 		)
 		(stroke
@@ -2588,6 +2690,16 @@
 			(type default)
 		)
 		(uuid "d134ce33-cec0-41d6-afc6-efe9df989814")
+	)
+	(wire
+		(pts
+			(xy 241.3 90.6272) (xy 259.08 90.6272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2f2d3d7-740b-4b4a-9c51-a24a71c83eef")
 	)
 	(wire
 		(pts
@@ -2628,104 +2740,6 @@
 			(type default)
 		)
 		(uuid "f48f9fa4-00fe-4a23-8195-f4decd09cbaf")
-	)
-	(wire
-		(pts
-			(xy 76.2 47.4472) (xy 78.74 47.4472)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0522751-51ae-458c-ab47-63494fed5b47")
-	)
-	(wire
-		(pts
-			(xy 238.76 85.5472) (xy 238.76 88.0872)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73f59959-3263-4471-af64-4b00b89c639c")
-	)
-	(wire
-		(pts
-			(xy 238.76 88.0872) (xy 228.6 88.0872)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "541a0c47-21b4-48a1-a698-00619ae0cbd6")
-	)
-	(wire
-		(pts
-			(xy 238.76 75.3872) (xy 251.46 75.3872)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c97d26b-9020-4f60-bb25-eb9f2508bf22")
-	)
-	(wire
-		(pts
-			(xy 251.46 75.3872) (xy 251.46 80.4672)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f4f2b24-e455-4bee-8ca3-44b1dc8b404c")
-	)
-	(wire
-		(pts
-			(xy 241.3 80.4672) (xy 226.06 80.4672)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be24423f-17fd-402e-b1ce-75bc34a75c82")
-	)
-	(wire
-		(pts
-			(xy 241.3 90.6272) (xy 259.08 90.6272)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2f2d3d7-740b-4b4a-9c51-a24a71c83eef")
-	)
-	(wire
-		(pts
-			(xy 259.08 90.6272) (xy 259.08 105.8672)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c71b0f5a-9bdd-4c42-a037-a5aab0ea53e2")
-	)
-	(junction
-		(at 76.2 47.4472)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f44cc21a-637d-4e71-b1ba-2f15a91ebac8")
-	)
-	(junction
-		(at 78.74 47.4472)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d7c305aa-abc5-40a1-8b89-6de9f398e75b")
-	)
-	(junction
-		(at 251.46 90.6272)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "44863d45-15dd-4cef-a1dd-a1c3382315ba")
 	)
 	(label "Voltage_IN"
 		(at 60.96 116.0272 0)
@@ -2770,7 +2784,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0c0993da-fc8b-4ed4-8235-0478bd3913aa")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR06"
 			(at 149.86 77.9272 0)
 			(hide yes)
 			(show_name no)
@@ -2827,7 +2841,81 @@
 		(instances
 			(project "Synapse_LPS"
 				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7/984ef279-a542-4986-b306-8a6747a54659"
-					(reference "#PWR?")
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synapse_LPS-altium-import:GND_POWER_GROUND")
+		(at 76.2 55.0672 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1131f6a3-3a7a-4306-aee6-e7ec30c372a5")
+		(property "Reference" "#PWR04"
+			(at 76.2 55.0672 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 61.4172 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 55.0672 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 55.0672 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 55.0672 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "5c108401-b0dd-4cde-89ba-946d760904a0")
+		)
+		(instances
+			(project "Synapse_LPS"
+				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7/984ef279-a542-4986-b306-8a6747a54659"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -2844,7 +2932,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1404971f-02ee-491e-b6e2-c687178f4f58")
-		(property "Reference" "RD1*"
+		(property "Reference" "RD1"
 			(at 43.18 38.5572 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2991,7 +3079,7 @@
 		(instances
 			(project "Synapse_LPS"
 				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7/984ef279-a542-4986-b306-8a6747a54659"
-					(reference "RD1*")
+					(reference "RD1")
 					(unit 1)
 				)
 			)
@@ -3008,7 +3096,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1ad2b8a4-409e-4184-b57a-e2c144e18853")
-		(property "Reference" "RD3*"
+		(property "Reference" "RD3"
 			(at 71.12 72.8472 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3155,7 +3243,7 @@
 		(instances
 			(project "Synapse_LPS"
 				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7/984ef279-a542-4986-b306-8a6747a54659"
-					(reference "RD3*")
+					(reference "RD3")
 					(unit 1)
 				)
 			)
@@ -3172,7 +3260,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28b87f7e-2d63-41b4-b4cc-ea8499c23d8f")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR02"
 			(at 58.42 123.6472 0)
 			(hide yes)
 			(show_name no)
@@ -3229,7 +3317,7 @@
 		(instances
 			(project "Synapse_LPS"
 				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7/984ef279-a542-4986-b306-8a6747a54659"
-					(reference "#PWR?")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -3246,7 +3334,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3baa0be4-9e92-42f6-a102-f086e70a2cd6")
-		(property "Reference" "RD4*"
+		(property "Reference" "RD4"
 			(at 61.976 77.6732 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3393,7 +3481,7 @@
 		(instances
 			(project "Synapse_LPS"
 				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7/984ef279-a542-4986-b306-8a6747a54659"
-					(reference "RD4*")
+					(reference "RD4")
 					(unit 1)
 				)
 			)
@@ -3410,7 +3498,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "596df685-acbb-493a-a2d8-483b3fb1b08e")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR07"
 			(at 172.72 60.1472 0)
 			(hide yes)
 			(show_name no)
@@ -3467,7 +3555,7 @@
 		(instances
 			(project "Synapse_LPS"
 				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7/984ef279-a542-4986-b306-8a6747a54659"
-					(reference "#PWR?")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -3484,7 +3572,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "624938fc-9561-4fe2-b5c4-6d131d35c749")
-		(property "Reference" "R?"
+		(property "Reference" "R6"
 			(at 210.82 74.1172 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3631,7 +3719,7 @@
 		(instances
 			(project "Synapse_LPS"
 				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7/984ef279-a542-4986-b306-8a6747a54659"
-					(reference "R?")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -3648,7 +3736,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "73505b9e-8b48-4385-b55a-15e094ccd8cd")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR03"
 			(at 60.96 88.0872 0)
 			(hide yes)
 			(show_name no)
@@ -3705,7 +3793,94 @@
 		(instances
 			(project "Synapse_LPS"
 				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7/984ef279-a542-4986-b306-8a6747a54659"
-					(reference "#PWR?")
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NPN_CurrentMirror")
+		(at 233.68 80.4672 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "829ff7b0-6b08-4996-bf68-c7403865ab64")
+		(property "Reference" "Q7"
+			(at 238.76 81.7372 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC547"
+			(at 238.76 79.1972 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 80.4672 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 80.4672 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 80.4672 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "C1"
+			(uuid "0bb5ef61-2d1a-4270-b007-d755d61f961d")
+		)
+		(pin "C2"
+			(uuid "eceee641-1472-4042-bbf7-9f4074443f4d")
+		)
+		(pin "E1"
+			(uuid "a47dd08a-a900-4a60-8dae-575494ee9860")
+		)
+		(pin "E2"
+			(uuid "0b7a32fd-65f9-4b59-92b7-bfb4b7fff4f6")
+		)
+		(instances
+			(project "Synapse_LPS"
+				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7/984ef279-a542-4986-b306-8a6747a54659"
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -3722,7 +3897,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8ec83182-a84f-4bc4-9f8d-c7563dc8468e")
-		(property "Reference" "RD2*"
+		(property "Reference" "RD2"
 			(at 35.306 48.9712 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3869,7 +4044,7 @@
 		(instances
 			(project "Synapse_LPS"
 				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7/984ef279-a542-4986-b306-8a6747a54659"
-					(reference "RD2*")
+					(reference "RD2")
 					(unit 1)
 				)
 			)
@@ -4066,7 +4241,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ba28958-33c7-426b-bb38-3252b490070f")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR01"
 			(at 27.94 39.8272 0)
 			(hide yes)
 			(show_name no)
@@ -4123,7 +4298,7 @@
 		(instances
 			(project "Synapse_LPS"
 				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7/984ef279-a542-4986-b306-8a6747a54659"
-					(reference "#PWR?")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4140,7 +4315,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a68bd436-8c93-4710-98a5-b3b8e6a5e57d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR08"
 			(at 205.74 88.0872 0)
 			(hide yes)
 			(show_name no)
@@ -4197,7 +4372,7 @@
 		(instances
 			(project "Synapse_LPS"
 				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7/984ef279-a542-4986-b306-8a6747a54659"
-					(reference "#PWR?")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4214,7 +4389,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a74753c8-165f-4ee8-8de1-60cdf4f9b55e")
-		(property "Reference" "VR?"
+		(property "Reference" "VR2"
 			(at 180.34 72.8472 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4377,7 +4552,7 @@
 		(instances
 			(project "Synapse_LPS"
 				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7/984ef279-a542-4986-b306-8a6747a54659"
-					(reference "VR?")
+					(reference "VR2")
 					(unit 1)
 				)
 			)
@@ -4394,7 +4569,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b48fe77c-4343-4f77-a259-3462fc554afa")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR010"
 			(at 259.08 105.8672 0)
 			(hide yes)
 			(show_name no)
@@ -4451,7 +4626,7 @@
 		(instances
 			(project "Synapse_LPS"
 				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7/984ef279-a542-4986-b306-8a6747a54659"
-					(reference "#PWR?")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -4468,7 +4643,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b65fed62-c375-4c88-a170-e88b33e1e22e")
-		(property "Reference" "J?"
+		(property "Reference" "J3"
 			(at 210.82 100.7872 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4616,7 +4791,178 @@
 		(instances
 			(project "Synapse_LPS"
 				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7/984ef279-a542-4986-b306-8a6747a54659"
-					(reference "J?")
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NPN")
+		(at 73.66 49.9872 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "be5d26d1-9ebb-47b7-a714-f06c8e6b7a9d")
+		(property "Reference" "Q3"
+			(at 78.74 51.2572 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC547"
+			(at 78.74 48.7172 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 49.9872 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 49.9872 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 49.9872 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "B"
+			(uuid "0d7751b0-cb54-491a-96c3-18629dad0f0f")
+		)
+		(pin "C"
+			(uuid "c1f93eca-efd1-44ed-a56d-7935b7640fa9")
+		)
+		(pin "E"
+			(uuid "6c564fc4-0c66-4401-a75b-ccf3af803c8b")
+		)
+		(instances
+			(project "Synapse_LPS"
+				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7/984ef279-a542-4986-b306-8a6747a54659"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_PNP_CurrentMirror")
+		(at 246.38 85.5472 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c019a698-cf9d-458f-8139-225fefb53015")
+		(property "Reference" "Q8"
+			(at 241.3 84.2772 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC557"
+			(at 241.3 86.8172 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 85.5472 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 85.5472 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 85.5472 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "C1"
+			(uuid "31ea1442-af36-4889-a22d-caf37655ba0c")
+		)
+		(pin "C2"
+			(uuid "64705e9e-5a47-4009-a216-97845b67f533")
+		)
+		(pin "E1"
+			(uuid "c93a5344-b9eb-41a5-957a-9581616b01be")
+		)
+		(pin "E2"
+			(uuid "139c0ce9-b2ce-4655-9830-82bb7fbfefdd")
+		)
+		(instances
+			(project "Synapse_LPS"
+				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7/984ef279-a542-4986-b306-8a6747a54659"
+					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -4633,7 +4979,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce4c3543-13c7-40e9-97f3-ee1f1bd3ce9f")
-		(property "Reference" "J?"
+		(property "Reference" "J4"
 			(at 160.02 42.3672 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4781,7 +5127,7 @@
 		(instances
 			(project "Synapse_LPS"
 				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7/984ef279-a542-4986-b306-8a6747a54659"
-					(reference "J?")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -4963,7 +5309,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df0b6e80-2b83-4b6e-babd-32f3b799848b")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR09"
 			(at 233.68 105.8672 0)
 			(hide yes)
 			(show_name no)
@@ -5020,15 +5366,15 @@
 		(instances
 			(project "Synapse_LPS"
 				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7/984ef279-a542-4986-b306-8a6747a54659"
-					(reference "#PWR?")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NPN")
-		(at 73.66 49.9872 0)
+		(lib_id "Synapse_LPS-altium-import:+5V_BAR")
+		(at 86.36 62.6872 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5036,32 +5382,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "be5d26d1-9ebb-47b7-a714-f06c8e6b7a9d")
-		(property "Reference" "Q3"
-			(at 78.74 51.2572 0)
+		(uuid "fdbedc94-00a0-4b53-997b-444cd96d6481")
+		(property "Reference" "#PWR05"
+			(at 86.36 62.6872 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "BC547"
-			(at 78.74 48.7172 0)
+		(property "Value" "+5V"
+			(at 86.36 58.8772 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 49.9872 0)
-			(hide yes)
+			(at 86.36 62.6872 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5071,8 +5415,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 49.9872 0)
-			(hide yes)
+			(at 86.36 62.6872 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5082,8 +5425,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 73.66 49.9872 0)
-			(hide yes)
+			(at 86.36 62.6872 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5092,19 +5434,13 @@
 				)
 			)
 		)
-		(pin "B"
-			(uuid "0d7751b0-cb54-491a-96c3-18629dad0f0f")
-		)
-		(pin "C"
-			(uuid "c1f93eca-efd1-44ed-a56d-7935b7640fa9")
-		)
-		(pin "E"
-			(uuid "6c564fc4-0c66-4401-a75b-ccf3af803c8b")
+		(pin ""
+			(uuid "4125ce44-2637-497c-af76-e3188a819f49")
 		)
 		(instances
 			(project "Synapse_LPS"
 				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7/984ef279-a542-4986-b306-8a6747a54659"
-					(reference "Q3")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5193,357 +5529,5 @@
 				)
 			)
 		)
-	)
-	(symbol
-		(lib_id "Device:Q_NPN_CurrentMirror")
-		(at 233.68 80.4672 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "829ff7b0-6b08-4996-bf68-c7403865ab64")
-		(property "Reference" "Q7"
-			(at 238.76 81.7372 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC547"
-			(at 238.76 79.1972 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 80.4672 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 80.4672 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 233.68 80.4672 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "C1"
-			(uuid "0bb5ef61-2d1a-4270-b007-d755d61f961d")
-		)
-		(pin "C2"
-			(uuid "eceee641-1472-4042-bbf7-9f4074443f4d")
-		)
-		(pin "E1"
-			(uuid "a47dd08a-a900-4a60-8dae-575494ee9860")
-		)
-		(pin "E2"
-			(uuid "0b7a32fd-65f9-4b59-92b7-bfb4b7fff4f6")
-		)
-		(instances
-			(project "Synapse_LPS"
-				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7/984ef279-a542-4986-b306-8a6747a54659"
-					(reference "Q7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_PNP_CurrentMirror")
-		(at 246.38 85.5472 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c019a698-cf9d-458f-8139-225fefb53015")
-		(property "Reference" "Q8"
-			(at 241.3 84.2772 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC557"
-			(at 241.3 86.8172 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 246.38 85.5472 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 85.5472 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 246.38 85.5472 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "C1"
-			(uuid "31ea1442-af36-4889-a22d-caf37655ba0c")
-		)
-		(pin "C2"
-			(uuid "64705e9e-5a47-4009-a216-97845b67f533")
-		)
-		(pin "E1"
-			(uuid "c93a5344-b9eb-41a5-957a-9581616b01be")
-		)
-		(pin "E2"
-			(uuid "139c0ce9-b2ce-4655-9830-82bb7fbfefdd")
-		)
-		(instances
-			(project "Synapse_LPS"
-				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7/984ef279-a542-4986-b306-8a6747a54659"
-					(reference "Q8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Synapse_LPS-altium-import:GND_POWER_GROUND")
-		(at 76.2 55.0672 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1131f6a3-3a7a-4306-aee6-e7ec30c372a5")
-		(property "Reference" "#PWR?"
-			(at 76.2 55.0672 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 76.2 61.4172 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 55.0672 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 55.0672 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 76.2 55.0672 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "5c108401-b0dd-4cde-89ba-946d760904a0")
-		)
-		(instances
-			(project "Synapse_LPS"
-				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7/984ef279-a542-4986-b306-8a6747a54659"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 76.2 44.9072) (xy 76.2 47.4472)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d8b8935-9dbd-44d6-b8cf-7f45a6b7bcda")
-	)
-	(symbol
-		(lib_id "Synapse_LPS-altium-import:+5V_BAR")
-		(at 86.36 62.6872 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fdbedc94-00a0-4b53-997b-444cd96d6481")
-		(property "Reference" "#PWR?"
-			(at 86.36 62.6872 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 86.36 58.8772 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 62.6872 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 62.6872 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 86.36 62.6872 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "4125ce44-2637-497c-af76-e3188a819f49")
-		)
-		(instances
-			(project "Synapse_LPS"
-				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7/984ef279-a542-4986-b306-8a6747a54659"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 86.36 52.5272) (xy 68.58 52.5272)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34b1bb0b-406b-4429-b273-799fd53e3dd2")
-	)
-	(wire
-		(pts
-			(xy 68.58 52.5272) (xy 68.58 62.6872)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "851af471-41ac-43f3-b2f6-30c1ff6c159c")
 	)
 )
