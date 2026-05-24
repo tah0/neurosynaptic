@@ -214,11 +214,6 @@ Pin notation: `Ref.Pin` — tick each [ ] as you wire it.
   connect R1.2 to the shared base node of Q1 — the junction on Q1's body between the two
   collectors (see schematic for visual reference).
 
-⚠ **+5V vs +5** — two distinct supply labels exist in this schematic:
-  - `+5V` — main supply rail (used by J1.1, Q1.E1/E2, R1.1)
-  - `+5` — gate-bias rail for D1 (used by D1.G). May be the same physical supply or a
-    lower-voltage rail — verify in the original design intent before wiring.
-
 ### Wiring (net by net)
 
 **+5V** — connect all together:
@@ -264,8 +259,8 @@ Pin notation: `Ref.Pin` — tick each [ ] as you wire it.
 [ ] D1.A  (D1 pin 3 — Anode)
 ```
 
-**+5 (gate bias)** — D1 gate supply:
+**+5V (D1 gate)** — connect to +5V rail:
 ```
-[ ] D1.G  (D1 pin 2 — Gate)  →  +5 supply rail
+[ ] D1.G  (D1 pin 2 — Gate)
 ```
 

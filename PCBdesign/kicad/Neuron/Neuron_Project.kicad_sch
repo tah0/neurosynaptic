@@ -1165,7 +1165,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Neuron_Project-altium-import:+5_BAR"
+		(symbol "Neuron_Project-altium-import:+5V_BAR"
 			(power global)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1183,7 +1183,7 @@
 					)
 				)
 			)
-			(property "Value" "+5"
+			(property "Value" "+5V"
 				(at 0 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1215,7 +1215,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name '+5'"
+			(property "Description" "Power symbol creates a global label with name '+5V'"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1237,7 +1237,7 @@
 					)
 				)
 			)
-			(symbol "+5_BAR_0_0"
+			(symbol "+5V_BAR_0_0"
 				(polyline
 					(pts
 						(xy -1.27 -2.54) (xy 1.27 -2.54)
@@ -1266,7 +1266,7 @@
 					(at 0 0 0)
 					(length 0)
 					(hide yes)
-					(name "+5"
+					(name "+5V"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3725,7 +3725,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Neuron_Project-altium-import:+5_BAR")
+		(lib_id "Neuron_Project-altium-import:+5V_BAR")
 		(at 69.85 91.8972 0)
 		(unit 1)
 		(body_style 1)
@@ -3746,7 +3746,7 @@
 				)
 			)
 		)
-		(property "Value" "+5"
+		(property "Value" "+5V"
 			(at 69.85 95.7072 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4833,7 +4833,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Neuron_Project-altium-import:+5_BAR")
+		(lib_id "Neuron_Project-altium-import:+5V_BAR")
 		(at 64.77 119.8372 0)
 		(unit 1)
 		(body_style 1)
@@ -4854,7 +4854,7 @@
 				)
 			)
 		)
-		(property "Value" "+5"
+		(property "Value" "+5V"
 			(at 64.77 123.6472 0)
 			(show_name no)
 			(do_not_autoplace no)
