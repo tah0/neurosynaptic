@@ -124,125 +124,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Current_Source-altium-import:+5V_BAR"
-			(power global)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name '+5V'"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+5V_BAR_0_0"
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "+5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Current_Source-altium-import:GND_POWER_GROUND"
 			(power global)
 			(exclude_from_sim no)
@@ -1575,13 +1456,19 @@
 		(at 124.46 110.9472)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4063ed03-1e9a-4746-9cbd-cc3c0cc07218")
+		(uuid "52fc672b-acd0-4f3f-965a-504960c55bab")
 	)
 	(junction
 		(at 129.54 118.5672)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "62fb9bed-a026-48e7-a256-7d31b4b27af0")
+	)
+	(junction
+		(at 142.24 113.4872)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6aafab7e-bddf-4400-be1e-4cbdb42e2856")
 	)
 	(junction
 		(at 142.24 118.5672)
@@ -1601,6 +1488,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 111.76) (xy 142.24 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1469e0f1-45c5-4a46-b4fd-b6c51ec63e93")
+	)
+	(wire
+		(pts
 			(xy 138.43 156.6672) (xy 129.54 156.6672)
 		)
 		(stroke
@@ -1611,7 +1508,17 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 118.5672) (xy 142.24 113.4872)
+			(xy 142.24 113.4872) (xy 142.24 118.5672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33717115-1341-49d9-94af-4d84387eb231")
+	)
+	(wire
+		(pts
+			(xy 142.24 111.76) (xy 142.24 113.4872)
 		)
 		(stroke
 			(width 0)
@@ -1651,7 +1558,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 110.9472) (xy 124.46 110.9472)
+			(xy 128.27 111.76) (xy 124.46 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1688,6 +1595,16 @@
 			(type default)
 		)
 		(uuid "737beee5-07f0-4ec3-8efd-3e31ad129ba8")
+	)
+	(wire
+		(pts
+			(xy 124.46 100.7872) (xy 124.46 110.9472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "755dd4b1-ad4d-4ff8-9007-219916342079")
 	)
 	(wire
 		(pts
@@ -1801,6 +1718,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 111.76) (xy 124.46 110.9472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d35210c7-1db7-4d84-b193-40fbedf0fa42")
+	)
+	(wire
+		(pts
 			(xy 144.78 143.9672) (xy 144.78 125.73)
 		)
 		(stroke
@@ -1808,16 +1735,6 @@
 			(type default)
 		)
 		(uuid "d67f07a3-c9dd-4813-892f-741a92b1c1a3")
-	)
-	(wire
-		(pts
-			(xy 124.46 100.7872) (xy 124.46 110.9472)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d835d2e8-e9f5-4065-9930-61eb93130b91")
 	)
 	(global_label "Filter"
 		(shape input)
@@ -3312,7 +3229,7 @@
 	)
 	(symbol
 		(lib_id "Miscellaneous Devices:root_0_Res3_Miscellaneous Devices.IntLib")
-		(at 137.16 108.4072 90)
+		(at 130.81 109.22 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3322,7 +3239,7 @@
 		(dnp no)
 		(uuid "d18e4458-2458-4481-a975-88326562d326")
 		(property "Reference" "R1"
-			(at 137.16 109.6772 90)
+			(at 130.81 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3333,7 +3250,7 @@
 			)
 		)
 		(property "Value" "Res3"
-			(at 135.89 114.7572 90)
+			(at 129.54 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3344,7 +3261,7 @@
 			)
 		)
 		(property "Footprint" "J1-0603"
-			(at 137.16 108.4072 0)
+			(at 130.81 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3355,7 +3272,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 108.4072 0)
+			(at 130.81 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3366,7 +3283,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 137.16 108.4072 0)
+			(at 130.81 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3377,7 +3294,7 @@
 			)
 		)
 		(property "PUBLISHED" "8-Jun-2000"
-			(at 137.16 108.4072 90)
+			(at 130.81 109.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3389,7 +3306,7 @@
 			)
 		)
 		(property "LATESTREVISIONDATE" "29-May-2009"
-			(at 137.16 108.4072 90)
+			(at 130.81 109.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3401,7 +3318,7 @@
 			)
 		)
 		(property "LATESTREVISIONNOTE" "IPC-7351 Footprint Added."
-			(at 137.16 108.4072 90)
+			(at 130.81 109.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3413,7 +3330,7 @@
 			)
 		)
 		(property "PACKAGEREFERENCE" "J1-0603"
-			(at 137.16 108.4072 90)
+			(at 130.81 109.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3425,7 +3342,7 @@
 			)
 		)
 		(property "PUBLISHER" "Altium Limited"
-			(at 137.16 108.4072 90)
+			(at 130.81 109.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3437,7 +3354,7 @@
 			)
 		)
 		(property "PACKAGEDESCRIPTION" "Chip Resistor"
-			(at 137.16 108.4072 90)
+			(at 130.81 109.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3449,7 +3366,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "100K"
-			(at 136.906 117.0432 90)
+			(at 130.556 117.856 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
