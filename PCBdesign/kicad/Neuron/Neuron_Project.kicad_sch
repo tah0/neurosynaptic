@@ -1090,10 +1090,10 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -2.54 -1.016) (xy -2.54 -2.54)
-					)
+				(arc
+					(start -4.5103 -1.5255)
+					(mid -3.5576 -1.1454)
+					(end -2.54 -1.016)
 					(stroke
 						(width 0)
 						(type solid)
@@ -1102,10 +1102,10 @@
 						(type none)
 					)
 				)
-				(arc
-					(start -4.5103 -1.5255)
-					(mid -3.5576 -1.1454)
-					(end -2.54 -1.016)
+				(polyline
+					(pts
+						(xy -2.54 -1.016) (xy -2.54 -2.54)
+					)
 					(stroke
 						(width 0)
 						(type solid)
@@ -1853,7 +1853,7 @@
 		)
 		(uuid "898feaf0-65bd-4d0f-a011-c818e2f93102")
 	)
-	(text "Nueron"
+	(text "Neuron"
 		(exclude_from_sim no)
 		(at 207.01 190.9572 0)
 		(effects
@@ -2301,17 +2301,6 @@
 			(type default)
 		)
 		(uuid "bbd07ff0-49f3-4735-9a8a-c2188e4521b0")
-	)
-	(polyline
-		(pts
-			(xy -88.9 9.3472) (xy -91.44 -3.3528)
-		)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "c0a0c9da-7207-4e76-a1e1-337e393168a7")
 	)
 	(polyline
 		(pts
