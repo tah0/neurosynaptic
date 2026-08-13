@@ -1,0 +1,1255 @@
+(export
+	(version "E")
+	(design
+		(source "/home/todd/Documents/Thesis/neuromorphic circuit/neurosynaptic/PCBdesign/kicad/CurrentSource/Current_Source.kicad_sch")
+		(date "2026-08-13T18:52:16")
+		(tool "Eeschema 10.0.5-10.0.5~ubuntu24.04.1")
+		(textvar
+			(name "SHEETTOTAL") "1")
+		(textvar
+			(name "SPICEMODELCACHEENTVPGVK") "<root>\r\n  <DocumentId>ENTVPGVK</DocumentId>\r\n</root>")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title)
+				(company)
+				(rev)
+				(date)
+				(source "Current_Source.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "D1")
+			(value "P0118MA_2AL3")
+			(footprint "C__Users_86135_Documents_AltiumLL_SamacSys.PcbLib:TS1107A1AP")
+			(description "SCR")
+			(fields
+				(field
+					(name "DATASHEET LINK") "https://www.st.com/resource/en/datasheet/p0111da.pdf")
+				(field
+					(name "HEIGHT") "4.95mm")
+				(field
+					(name "MANUFACTURER_NAME") "STMicroelectronics")
+				(field
+					(name "MANUFACTURER_PART_NUMBER") "P0118MA 2AL3")
+				(field
+					(name "MOUSER PART NUMBER") "511-P0118MA2AL3")
+				(field
+					(name "MOUSER PRICE/STOCK") "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/P0118MA-2AL3?qs=8g15oU%252BBBJ8Tzu5vi19VdQ%3D%3D")
+				(field
+					(name "ARROW PART NUMBER")
+				)
+				(field
+					(name "ARROW PRICE/STOCK")
+				)
+				(field
+					(name "Footprint") "C__Users_86135_Documents_AltiumLL_SamacSys.PcbLib:TS1107A1AP")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SCR")
+			)
+			(libsource
+				(lib "SamacSys")
+				(part "root_3_P0118MA_2AL3_SamacSys.SchLib")
+				(description "SCR")
+			)
+			(property
+				(name "DATASHEET LINK")
+				(value "https://www.st.com/resource/en/datasheet/p0111da.pdf")
+			)
+			(property
+				(name "HEIGHT")
+				(value "4.95mm")
+			)
+			(property
+				(name "MANUFACTURER_NAME")
+				(value "STMicroelectronics")
+			)
+			(property
+				(name "MANUFACTURER_PART_NUMBER")
+				(value "P0118MA 2AL3")
+			)
+			(property
+				(name "MOUSER PART NUMBER")
+				(value "511-P0118MA2AL3")
+			)
+			(property
+				(name "MOUSER PRICE/STOCK")
+				(value "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/P0118MA-2AL3?qs=8g15oU%252BBBJ8Tzu5vi19VdQ%3D%3D")
+			)
+			(property
+				(name "ARROW PART NUMBER")
+				(value "")
+			)
+			(property
+				(name "ARROW PRICE/STOCK")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "CurrentSource")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Current_Source.kicad_sch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "*TS1107A1AP*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c82c691d-32fa-45ff-a841-7cb6db383612")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "IC1")
+			(value "ALD1105PBL")
+			(footprint "C__Users_86135_Documents_AltiumLL_SamacSys.PcbLib:DIP762W51P254L1828H508Q14N")
+			(description "Integrated Circuit")
+			(fields
+				(field
+					(name "DATASHEET LINK") "https://www.mouser.es/datasheet/2/8/ALD1105-963896.pdf")
+				(field
+					(name "HEIGHT") "5.08mm")
+				(field
+					(name "MANUFACTURER_NAME") "Advanced Linear Devices Inc.")
+				(field
+					(name "MANUFACTURER_PART_NUMBER") "ALD1105PBL")
+				(field
+					(name "MOUSER PART NUMBER") "585-ALD1105PBL")
+				(field
+					(name "MOUSER PRICE/STOCK") "https://www.mouser.co.uk/ProductDetail/Advanced-Linear-Devices/ALD1105PBL?qs=Du6x3Vjr3lUq%2FSLBVb98Ng%3D%3D")
+				(field
+					(name "ARROW PART NUMBER")
+				)
+				(field
+					(name "ARROW PRICE/STOCK")
+				)
+				(field
+					(name "Footprint") "C__Users_86135_Documents_AltiumLL_SamacSys.PcbLib:DIP762W51P254L1828H508Q14N")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Integrated Circuit")
+			)
+			(libsource
+				(lib "*")
+				(part "root_2_ALD1105PBL_*")
+				(description "Integrated Circuit")
+			)
+			(property
+				(name "DATASHEET LINK")
+				(value "https://www.mouser.es/datasheet/2/8/ALD1105-963896.pdf")
+			)
+			(property
+				(name "HEIGHT")
+				(value "5.08mm")
+			)
+			(property
+				(name "MANUFACTURER_NAME")
+				(value "Advanced Linear Devices Inc.")
+			)
+			(property
+				(name "MANUFACTURER_PART_NUMBER")
+				(value "ALD1105PBL")
+			)
+			(property
+				(name "MOUSER PART NUMBER")
+				(value "585-ALD1105PBL")
+			)
+			(property
+				(name "MOUSER PRICE/STOCK")
+				(value "https://www.mouser.co.uk/ProductDetail/Advanced-Linear-Devices/ALD1105PBL?qs=Du6x3Vjr3lUq%2FSLBVb98Ng%3D%3D")
+			)
+			(property
+				(name "ARROW PART NUMBER")
+				(value "")
+			)
+			(property
+				(name "ARROW PRICE/STOCK")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "CurrentSource")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Current_Source.kicad_sch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "*DIP762W51P254L1828H508Q14N*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "30f222c9-9166-4e4e-9293-23f739c63cdc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "14")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J1")
+			(value "TSW-102-07-G-S")
+			(footprint "C__Users_86135_Documents_AltiumLL_SamacSys.PcbLib:TSW-102-XX-YY-S")
+			(description "Connector")
+			(fields
+				(field
+					(name "DATASHEET LINK") "http://suddendocs.samtec.com/prints/tsw-xxx-xx-xxx-x-xx-xxx-mkt.pdf")
+				(field
+					(name "MANUFACTURER_NAME") "SAMTEC")
+				(field
+					(name "MANUFACTURER_PART_NUMBER") "TSW-102-07-G-S")
+				(field
+					(name "MOUSER PART NUMBER") "200-TSW10207GS")
+				(field
+					(name "MOUSER PRICE/STOCK") "https://www.mouser.co.uk/ProductDetail/Samtec/TSW-102-07-G-S?qs=iT52DjcXudsNPhlNCDp8vw%3D%3D")
+				(field
+					(name "ARROW PART NUMBER") "TSW-102-07-G-S")
+				(field
+					(name "ARROW PRICE/STOCK") "https://www.arrow.com/en/products/tsw-102-07-g-s/samtec?region=europe")
+				(field
+					(name "Footprint") "C__Users_86135_Documents_AltiumLL_SamacSys.PcbLib:TSW-102-XX-YY-S")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Connector")
+			)
+			(libsource
+				(lib "SamacSys")
+				(part "root_1_TSW-102-07-G-S_SamacSys.SchLib")
+				(description "Connector")
+			)
+			(property
+				(name "DATASHEET LINK")
+				(value "http://suddendocs.samtec.com/prints/tsw-xxx-xx-xxx-x-xx-xxx-mkt.pdf")
+			)
+			(property
+				(name "MANUFACTURER_NAME")
+				(value "SAMTEC")
+			)
+			(property
+				(name "MANUFACTURER_PART_NUMBER")
+				(value "TSW-102-07-G-S")
+			)
+			(property
+				(name "MOUSER PART NUMBER")
+				(value "200-TSW10207GS")
+			)
+			(property
+				(name "MOUSER PRICE/STOCK")
+				(value "https://www.mouser.co.uk/ProductDetail/Samtec/TSW-102-07-G-S?qs=iT52DjcXudsNPhlNCDp8vw%3D%3D")
+			)
+			(property
+				(name "ARROW PART NUMBER")
+				(value "TSW-102-07-G-S")
+			)
+			(property
+				(name "ARROW PRICE/STOCK")
+				(value "https://www.arrow.com/en/products/tsw-102-07-g-s/samtec?region=europe")
+			)
+			(property
+				(name "Sheetname")
+				(value "CurrentSource")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Current_Source.kicad_sch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "*TSW-102-XX-YY-S*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bbf62143-42f2-427b-82e1-ce5bc44598e4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J2")
+			(value "TSW-102-07-G-S")
+			(footprint "C__Users_86135_Documents_AltiumLL_SamacSys.PcbLib:TSW-102-XX-YY-S")
+			(description "Connector")
+			(fields
+				(field
+					(name "DATASHEET LINK") "http://suddendocs.samtec.com/prints/tsw-xxx-xx-xxx-x-xx-xxx-mkt.pdf")
+				(field
+					(name "MANUFACTURER_NAME") "SAMTEC")
+				(field
+					(name "MANUFACTURER_PART_NUMBER") "TSW-102-07-G-S")
+				(field
+					(name "MOUSER PART NUMBER") "200-TSW10207GS")
+				(field
+					(name "MOUSER PRICE/STOCK") "https://www.mouser.co.uk/ProductDetail/Samtec/TSW-102-07-G-S?qs=iT52DjcXudsNPhlNCDp8vw%3D%3D")
+				(field
+					(name "ARROW PART NUMBER") "TSW-102-07-G-S")
+				(field
+					(name "ARROW PRICE/STOCK") "https://www.arrow.com/en/products/tsw-102-07-g-s/samtec?region=europe")
+				(field
+					(name "Footprint") "C__Users_86135_Documents_AltiumLL_SamacSys.PcbLib:TSW-102-XX-YY-S")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Connector")
+			)
+			(libsource
+				(lib "SamacSys")
+				(part "root_1_TSW-102-07-G-S_SamacSys.SchLib")
+				(description "Connector")
+			)
+			(property
+				(name "DATASHEET LINK")
+				(value "http://suddendocs.samtec.com/prints/tsw-xxx-xx-xxx-x-xx-xxx-mkt.pdf")
+			)
+			(property
+				(name "MANUFACTURER_NAME")
+				(value "SAMTEC")
+			)
+			(property
+				(name "MANUFACTURER_PART_NUMBER")
+				(value "TSW-102-07-G-S")
+			)
+			(property
+				(name "MOUSER PART NUMBER")
+				(value "200-TSW10207GS")
+			)
+			(property
+				(name "MOUSER PRICE/STOCK")
+				(value "https://www.mouser.co.uk/ProductDetail/Samtec/TSW-102-07-G-S?qs=iT52DjcXudsNPhlNCDp8vw%3D%3D")
+			)
+			(property
+				(name "ARROW PART NUMBER")
+				(value "TSW-102-07-G-S")
+			)
+			(property
+				(name "ARROW PRICE/STOCK")
+				(value "https://www.arrow.com/en/products/tsw-102-07-g-s/samtec?region=europe")
+			)
+			(property
+				(name "Sheetname")
+				(value "CurrentSource")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Current_Source.kicad_sch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "*TSW-102-XX-YY-S*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a126f75e-b9a4-4d53-934b-dfc651b51386")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "Res3")
+			(footprint "J1-0603")
+			(description "Resistor")
+			(fields
+				(field
+					(name "PUBLISHED") "8-Jun-2000")
+				(field
+					(name "LATESTREVISIONDATE") "29-May-2009")
+				(field
+					(name "LATESTREVISIONNOTE") "IPC-7351 Footprint Added.")
+				(field
+					(name "PACKAGEREFERENCE") "J1-0603")
+				(field
+					(name "PUBLISHER") "Altium Limited")
+				(field
+					(name "PACKAGEDESCRIPTION") "Chip Resistor")
+				(field
+					(name "ALTIUM_VALUE") "100K")
+				(field
+					(name "Footprint") "J1-0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Miscellaneous Devices")
+				(part "root_0_Res3_Miscellaneous Devices.IntLib")
+				(description "Resistor")
+			)
+			(property
+				(name "PUBLISHED")
+				(value "8-Jun-2000")
+			)
+			(property
+				(name "LATESTREVISIONDATE")
+				(value "29-May-2009")
+			)
+			(property
+				(name "LATESTREVISIONNOTE")
+				(value "IPC-7351 Footprint Added.")
+			)
+			(property
+				(name "PACKAGEREFERENCE")
+				(value "J1-0603")
+			)
+			(property
+				(name "PUBLISHER")
+				(value "Altium Limited")
+			)
+			(property
+				(name "PACKAGEDESCRIPTION")
+				(value "Chip Resistor")
+			)
+			(property
+				(name "ALTIUM_VALUE")
+				(value "100K")
+			)
+			(property
+				(name "Sheetname")
+				(value "CurrentSource")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Current_Source.kicad_sch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "*J1-0603*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d18e4458-2458-4481-a975-88326562d326")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R2")
+			(value "Res3")
+			(footprint "J1-0603")
+			(description "Resistor")
+			(fields
+				(field
+					(name "PUBLISHED") "8-Jun-2000")
+				(field
+					(name "LATESTREVISIONDATE") "29-May-2009")
+				(field
+					(name "LATESTREVISIONNOTE") "IPC-7351 Footprint Added.")
+				(field
+					(name "PACKAGEREFERENCE") "J1-0603")
+				(field
+					(name "PUBLISHER") "Altium Limited")
+				(field
+					(name "PACKAGEDESCRIPTION") "Chip Resistor")
+				(field
+					(name "ALTIUM_VALUE") "100K")
+				(field
+					(name "Footprint") "J1-0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Miscellaneous Devices")
+				(part "root_0_Res3_Miscellaneous Devices.IntLib")
+				(description "Resistor")
+			)
+			(property
+				(name "PUBLISHED")
+				(value "8-Jun-2000")
+			)
+			(property
+				(name "LATESTREVISIONDATE")
+				(value "29-May-2009")
+			)
+			(property
+				(name "LATESTREVISIONNOTE")
+				(value "IPC-7351 Footprint Added.")
+			)
+			(property
+				(name "PACKAGEREFERENCE")
+				(value "J1-0603")
+			)
+			(property
+				(name "PUBLISHER")
+				(value "Altium Limited")
+			)
+			(property
+				(name "PACKAGEDESCRIPTION")
+				(value "Chip Resistor")
+			)
+			(property
+				(name "ALTIUM_VALUE")
+				(value "100K")
+			)
+			(property
+				(name "Sheetname")
+				(value "CurrentSource")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Current_Source.kicad_sch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "*J1-0603*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "180c235a-eb8a-4ffa-9cee-417cc5188bf2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "VR1")
+			(value "3214X-1-203E")
+			(footprint "C__Users_86135_Documents_AltiumLL_SamacSys.PcbLib:3214X1203E")
+			(description "Variable Resistor")
+			(fields
+				(field
+					(name "DATASHEET LINK") "https://www.bourns.com/pdfs/3214.pdf")
+				(field
+					(name "HEIGHT") "5.3mm")
+				(field
+					(name "MANUFACTURER_NAME") "Bourns")
+				(field
+					(name "MANUFACTURER_PART_NUMBER") "3214X-1-203E")
+				(field
+					(name "MOUSER PART NUMBER") "652-3214X-1-203E")
+				(field
+					(name "MOUSER PRICE/STOCK") "https://www.mouser.co.uk/ProductDetail/Bourns/3214X-1-203E?qs=GbiU%252BivmtKCiZgVfjOTq7A%3D%3D")
+				(field
+					(name "ARROW PART NUMBER") "3214X-1-203E")
+				(field
+					(name "ARROW PRICE/STOCK") "https://www.arrow.com/en/products/3214x-1-203e/bourns?region=nac")
+				(field
+					(name "Footprint") "C__Users_86135_Documents_AltiumLL_SamacSys.PcbLib:3214X1203E")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Variable Resistor")
+			)
+			(libsource
+				(lib "SamacSys")
+				(part "root_0_3214X-1-203E_SamacSys.SchLib")
+				(description "Variable Resistor")
+			)
+			(property
+				(name "DATASHEET LINK")
+				(value "https://www.bourns.com/pdfs/3214.pdf")
+			)
+			(property
+				(name "HEIGHT")
+				(value "5.3mm")
+			)
+			(property
+				(name "MANUFACTURER_NAME")
+				(value "Bourns")
+			)
+			(property
+				(name "MANUFACTURER_PART_NUMBER")
+				(value "3214X-1-203E")
+			)
+			(property
+				(name "MOUSER PART NUMBER")
+				(value "652-3214X-1-203E")
+			)
+			(property
+				(name "MOUSER PRICE/STOCK")
+				(value "https://www.mouser.co.uk/ProductDetail/Bourns/3214X-1-203E?qs=GbiU%252BivmtKCiZgVfjOTq7A%3D%3D")
+			)
+			(property
+				(name "ARROW PART NUMBER")
+				(value "3214X-1-203E")
+			)
+			(property
+				(name "ARROW PRICE/STOCK")
+				(value "https://www.arrow.com/en/products/3214x-1-203e/bourns?region=nac")
+			)
+			(property
+				(name "Sheetname")
+				(value "CurrentSource")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Current_Source.kicad_sch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "*3214X1203E*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b7d3a794-0f8d-4217-a935-42b18737730c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "*")
+			(part "root_2_ALD1105PBL_*")
+			(description "Integrated Circuit")
+			(footprints
+				(fp "*DIP762W51P254L1828H508Q14N*")
+			)
+			(fields
+				(field
+					(name "Reference")
+				)
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Integrated Circuit")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "DN1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "GN1")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "SN1")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "V-")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "DP1")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "GP1")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "SP1")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "SP2")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "GP2")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "DP2")
+					(type "passive")
+				)
+				(pin
+					(num "11")
+					(name "V+")
+					(type "passive")
+				)
+				(pin
+					(num "12")
+					(name "SN2")
+					(type "passive")
+				)
+				(pin
+					(num "13")
+					(name "GN2")
+					(type "passive")
+				)
+				(pin
+					(num "14")
+					(name "DN2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Miscellaneous Devices")
+			(part "root_0_Res3_Miscellaneous Devices.IntLib")
+			(description "Resistor")
+			(footprints
+				(fp "*J1-0603*")
+			)
+			(fields
+				(field
+					(name "Reference")
+				)
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "SamacSys")
+			(part "root_0_3214X-1-203E_SamacSys.SchLib")
+			(description "Variable Resistor")
+			(footprints
+				(fp "*3214X1203E*")
+			)
+			(fields
+				(field
+					(name "Reference")
+				)
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Variable Resistor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "CCW")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "WIPER")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "CW")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "SamacSys")
+			(part "root_1_TSW-102-07-G-S_SamacSys.SchLib")
+			(description "Connector")
+			(footprints
+				(fp "*TSW-102-XX-YY-S*")
+			)
+			(fields
+				(field
+					(name "Reference")
+				)
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Connector")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "SamacSys")
+			(part "root_3_P0118MA_2AL3_SamacSys.SchLib")
+			(description "SCR")
+			(footprints
+				(fp "*TS1107A1AP*")
+			)
+			(fields
+				(field
+					(name "Reference")
+				)
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "SCR")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "G")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "SamacSys")
+			(uri "${KIPRJMOD}/SamacSys.SchLib")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "+5")
+			(class "Default")
+			(node
+				(ref "D1")
+				(pin "2")
+				(pinfunction "G_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "2")
+			(name "+5V")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "4")
+			(name "GND")
+			(class "Default")
+			(node
+				(ref "D1")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC1")
+				(pin "14")
+				(pinfunction "DN2_14")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC1")
+				(pin "4")
+				(pinfunction "V-_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "5")
+			(name "Net-(D1-A)")
+			(class "Default")
+			(node
+				(ref "D1")
+				(pin "3")
+				(pinfunction "A_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC1")
+				(pin "13")
+				(pinfunction "GN2_13")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "6")
+			(name "Net-(IC1-DP1)")
+			(class "Default")
+			(node
+				(ref "IC1")
+				(pin "5")
+				(pinfunction "DP1_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "7")
+			(name "Net-(IC1-DP2)")
+			(class "Default")
+			(node
+				(ref "IC1")
+				(pin "10")
+				(pinfunction "DP2_10")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC1")
+				(pin "12")
+				(pinfunction "SN2_12")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "VR1")
+				(pin "1")
+				(pinfunction "CCW_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "VR1")
+				(pin "2")
+				(pinfunction "WIPER_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "Net-(IC1-GP1)")
+			(class "Default")
+			(node
+				(ref "IC1")
+				(pin "11")
+				(pinfunction "V+_11")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC1")
+				(pin "6")
+				(pinfunction "GP1_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC1")
+				(pin "7")
+				(pinfunction "SP1_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC1")
+				(pin "8")
+				(pinfunction "SP2_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC1")
+				(pin "9")
+				(pinfunction "GP2_9")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "9")
+			(name "Net-(VR1-CW)")
+			(class "Default")
+			(node
+				(ref "R2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "VR1")
+				(pin "3")
+				(pinfunction "CW_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "10")
+			(name "unconnected-(IC1-DN1-Pad1)")
+			(class "Default")
+			(node
+				(ref "IC1")
+				(pin "1")
+				(pinfunction "DN1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "11")
+			(name "unconnected-(IC1-GN1-Pad2)")
+			(class "Default")
+			(node
+				(ref "IC1")
+				(pin "2")
+				(pinfunction "GN1_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "12")
+			(name "unconnected-(IC1-SN1-Pad3)")
+			(class "Default")
+			(node
+				(ref "IC1")
+				(pin "3")
+				(pinfunction "SN1_3")
+				(pintype "passive")
+			)
+		)
+	)
+)

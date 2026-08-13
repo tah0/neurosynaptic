@@ -1090,10 +1090,10 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -2.54 -1.016) (xy -2.54 -2.54)
-					)
+				(arc
+					(start -4.5103 -1.5255)
+					(mid -3.5576 -1.1454)
+					(end -2.54 -1.016)
 					(stroke
 						(width 0)
 						(type solid)
@@ -1102,10 +1102,10 @@
 						(type none)
 					)
 				)
-				(arc
-					(start -4.5103 -1.5255)
-					(mid -3.5576 -1.1454)
-					(end -2.54 -1.016)
+				(polyline
+					(pts
+						(xy -2.54 -1.016) (xy -2.54 -2.54)
+					)
 					(stroke
 						(width 0)
 						(type solid)
@@ -2772,7 +2772,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2258c67a-01e9-4315-b8de-6d85df15dfa0")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR010"
 			(at 205.74 141.4272 0)
 			(hide yes)
 			(show_name no)
@@ -2829,7 +2829,7 @@
 		(instances
 			(project "Neuron_Project"
 				(path "/3905f665-24ad-4235-ac5f-6322543a1637"
-					(reference "#PWR?")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -3661,7 +3661,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "743fdf58-5355-43bb-bc32-ba72f6aa0a0e")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR03"
 			(at 72.39 96.9772 0)
 			(hide yes)
 			(show_name no)
@@ -3718,7 +3718,7 @@
 		(instances
 			(project "Neuron_Project"
 				(path "/3905f665-24ad-4235-ac5f-6322543a1637"
-					(reference "#PWR?")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -3735,7 +3735,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c1b8553-d23f-4265-89ce-d33c516bf4e6")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR02"
 			(at 69.85 91.8972 0)
 			(hide yes)
 			(show_name no)
@@ -3792,7 +3792,7 @@
 		(instances
 			(project "Neuron_Project"
 				(path "/3905f665-24ad-4235-ac5f-6322543a1637"
-					(reference "#PWR?")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -3809,7 +3809,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9fcc0d64-279e-4269-977d-20ecf22eaba6")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR06"
 			(at 124.46 141.4272 0)
 			(hide yes)
 			(show_name no)
@@ -3866,7 +3866,7 @@
 		(instances
 			(project "Neuron_Project"
 				(path "/3905f665-24ad-4235-ac5f-6322543a1637"
-					(reference "#PWR?")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -4075,7 +4075,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c289808b-871f-4932-acdb-28f1da75410b")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR07"
 			(at 138.43 141.4272 0)
 			(hide yes)
 			(show_name no)
@@ -4132,7 +4132,7 @@
 		(instances
 			(project "Neuron_Project"
 				(path "/3905f665-24ad-4235-ac5f-6322543a1637"
-					(reference "#PWR?")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4149,7 +4149,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c49dce05-4612-4385-a562-630aadc951e7")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR05"
 			(at 95.25 141.4272 0)
 			(hide yes)
 			(show_name no)
@@ -4206,7 +4206,7 @@
 		(instances
 			(project "Neuron_Project"
 				(path "/3905f665-24ad-4235-ac5f-6322543a1637"
-					(reference "#PWR?")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4223,7 +4223,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5c9e11c-c160-440d-b4a9-8c4c55d8c34e")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR04"
 			(at 83.82 141.4272 0)
 			(hide yes)
 			(show_name no)
@@ -4280,7 +4280,7 @@
 		(instances
 			(project "Neuron_Project"
 				(path "/3905f665-24ad-4235-ac5f-6322543a1637"
-					(reference "#PWR?")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -4843,7 +4843,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e0acb4cc-ae89-46da-8c0f-e4c5fb1787d7")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR01"
 			(at 64.77 119.8372 0)
 			(hide yes)
 			(show_name no)
@@ -4900,7 +4900,7 @@
 		(instances
 			(project "Neuron_Project"
 				(path "/3905f665-24ad-4235-ac5f-6322543a1637"
-					(reference "#PWR?")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -5057,7 +5057,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f28e0dad-a300-4edc-ab15-2ba26d44d691")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR08"
 			(at 160.02 141.4272 0)
 			(hide yes)
 			(show_name no)
@@ -5114,7 +5114,7 @@
 		(instances
 			(project "Neuron_Project"
 				(path "/3905f665-24ad-4235-ac5f-6322543a1637"
-					(reference "#PWR?")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5131,7 +5131,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "faa05146-06fa-4355-983a-a0ce1bf1a030")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR09"
 			(at 193.04 141.4272 0)
 			(hide yes)
 			(show_name no)
@@ -5188,7 +5188,7 @@
 		(instances
 			(project "Neuron_Project"
 				(path "/3905f665-24ad-4235-ac5f-6322543a1637"
-					(reference "#PWR?")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)

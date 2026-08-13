@@ -1,0 +1,1736 @@
+(export
+	(version "E")
+	(design
+		(source "/home/todd/Documents/Thesis/neuromorphic circuit/neurosynaptic/PCBdesign/kicad/Neuron/Neuron_Project.kicad_sch")
+		(date "2026-08-13T18:53:51")
+		(tool "Eeschema 10.0.5-10.0.5~ubuntu24.04.1")
+		(textvar
+			(name "SHEETTOTAL") "1")
+		(textvar
+			(name "SPICEMODELCACHELTBKIITM") "<root>\r\n  <DocumentId>LTBKIITM</DocumentId>\r\n</root>")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title)
+				(company)
+				(rev)
+				(date)
+				(source "Neuron_Project.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "C1")
+			(value "Cap2")
+			(footprint "CAPR5-4X5")
+			(description "Capacitor")
+			(fields
+				(field
+					(name "PUBLISHED") "23-Sep-2002")
+				(field
+					(name "PACKAGEREFERENCE") "CAPR5-4X5")
+				(field
+					(name "PUBLISHER") "Altium Limited")
+				(field
+					(name "PACKAGEDESCRIPTION") "Capacitor; 2 Leads")
+				(field
+					(name "ALTIUM_VALUE") "100pF")
+				(field
+					(name "Footprint") "CAPR5-4X5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Capacitor")
+			)
+			(libsource
+				(lib "Miscellaneous Devices")
+				(part "root_3_Cap2_Miscellaneous Devices.IntLib")
+				(description "Capacitor")
+			)
+			(property
+				(name "PUBLISHED")
+				(value "23-Sep-2002")
+			)
+			(property
+				(name "PACKAGEREFERENCE")
+				(value "CAPR5-4X5")
+			)
+			(property
+				(name "PUBLISHER")
+				(value "Altium Limited")
+			)
+			(property
+				(name "PACKAGEDESCRIPTION")
+				(value "Capacitor; 2 Leads")
+			)
+			(property
+				(name "ALTIUM_VALUE")
+				(value "100pF")
+			)
+			(property
+				(name "Sheetname")
+				(value "Nueron")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Neuron_Project.kicad_sch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "*CAPR5-4X5*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e1a9ad9e-86f4-49c4-893d-ad3de09f5599")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C2")
+			(value "Cap Semi")
+			(footprint "C1206")
+			(description "Capacitor (Semiconductor SIM Model)")
+			(fields
+				(field
+					(name "PUBLISHED") "8-Jun-2000")
+				(field
+					(name "LATESTREVISIONDATE") "29-May-2009")
+				(field
+					(name "LATESTREVISIONNOTE") "IPC-7351 Footprint Added.")
+				(field
+					(name "PACKAGEREFERENCE") "C1206")
+				(field
+					(name "PUBLISHER") "Altium Limited")
+				(field
+					(name "PACKAGEDESCRIPTION") "Chip Capacitor")
+				(field
+					(name "ALTIUM_VALUE") "100pF")
+				(field
+					(name "Footprint") "C1206")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Capacitor (Semiconductor SIM Model)")
+			)
+			(libsource
+				(lib "Miscellaneous Devices")
+				(part "root_1_Cap Semi_Miscellaneous Devices.IntLib")
+				(description "Capacitor (Semiconductor SIM Model)")
+			)
+			(property
+				(name "PUBLISHED")
+				(value "8-Jun-2000")
+			)
+			(property
+				(name "LATESTREVISIONDATE")
+				(value "29-May-2009")
+			)
+			(property
+				(name "LATESTREVISIONNOTE")
+				(value "IPC-7351 Footprint Added.")
+			)
+			(property
+				(name "PACKAGEREFERENCE")
+				(value "C1206")
+			)
+			(property
+				(name "PUBLISHER")
+				(value "Altium Limited")
+			)
+			(property
+				(name "PACKAGEDESCRIPTION")
+				(value "Chip Capacitor")
+			)
+			(property
+				(name "ALTIUM_VALUE")
+				(value "100pF")
+			)
+			(property
+				(name "Sheetname")
+				(value "Nueron")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Neuron_Project.kicad_sch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "*C1206*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "26cbe221-3245-450c-a9f7-bda653ccc306")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C3")
+			(value "Cap2")
+			(footprint "CAPR5-4X5")
+			(description "Capacitor")
+			(fields
+				(field
+					(name "PUBLISHED") "23-Sep-2002")
+				(field
+					(name "PACKAGEREFERENCE") "CAPR5-4X5")
+				(field
+					(name "PUBLISHER") "Altium Limited")
+				(field
+					(name "PACKAGEDESCRIPTION") "Capacitor; 2 Leads")
+				(field
+					(name "ALTIUM_VALUE") "100pF")
+				(field
+					(name "Footprint") "CAPR5-4X5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Capacitor")
+			)
+			(libsource
+				(lib "Miscellaneous Devices")
+				(part "root_3_Cap2_Miscellaneous Devices.IntLib")
+				(description "Capacitor")
+			)
+			(property
+				(name "PUBLISHED")
+				(value "23-Sep-2002")
+			)
+			(property
+				(name "PACKAGEREFERENCE")
+				(value "CAPR5-4X5")
+			)
+			(property
+				(name "PUBLISHER")
+				(value "Altium Limited")
+			)
+			(property
+				(name "PACKAGEDESCRIPTION")
+				(value "Capacitor; 2 Leads")
+			)
+			(property
+				(name "ALTIUM_VALUE")
+				(value "100pF")
+			)
+			(property
+				(name "Sheetname")
+				(value "Nueron")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Neuron_Project.kicad_sch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "*CAPR5-4X5*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "38097889-7ee6-4b11-bc6a-bef5501a4721")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C4")
+			(value "Cap Semi")
+			(footprint "C1206")
+			(description "Capacitor (Semiconductor SIM Model)")
+			(fields
+				(field
+					(name "PUBLISHED") "8-Jun-2000")
+				(field
+					(name "LATESTREVISIONDATE") "29-May-2009")
+				(field
+					(name "LATESTREVISIONNOTE") "IPC-7351 Footprint Added.")
+				(field
+					(name "PACKAGEREFERENCE") "C1206")
+				(field
+					(name "PUBLISHER") "Altium Limited")
+				(field
+					(name "PACKAGEDESCRIPTION") "Chip Capacitor")
+				(field
+					(name "ALTIUM_VALUE") "100pF")
+				(field
+					(name "Footprint") "C1206")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Capacitor (Semiconductor SIM Model)")
+			)
+			(libsource
+				(lib "Miscellaneous Devices")
+				(part "root_1_Cap Semi_Miscellaneous Devices.IntLib")
+				(description "Capacitor (Semiconductor SIM Model)")
+			)
+			(property
+				(name "PUBLISHED")
+				(value "8-Jun-2000")
+			)
+			(property
+				(name "LATESTREVISIONDATE")
+				(value "29-May-2009")
+			)
+			(property
+				(name "LATESTREVISIONNOTE")
+				(value "IPC-7351 Footprint Added.")
+			)
+			(property
+				(name "PACKAGEREFERENCE")
+				(value "C1206")
+			)
+			(property
+				(name "PUBLISHER")
+				(value "Altium Limited")
+			)
+			(property
+				(name "PACKAGEDESCRIPTION")
+				(value "Chip Capacitor")
+			)
+			(property
+				(name "ALTIUM_VALUE")
+				(value "100pF")
+			)
+			(property
+				(name "Sheetname")
+				(value "Nueron")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Neuron_Project.kicad_sch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "*C1206*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d0eb42ca-52cd-4e1d-bff7-82cef4a9d65c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D1")
+			(value "S4X8TS1RP")
+			(footprint "C__Users_86135_Documents_AltiumLL_SamacSys.PcbLib:S4X8TS1RP")
+			(description "Thyristor")
+			(fields
+				(field
+					(name "DATASHEET LINK") "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=33d0d5e7-46fd-406d-80ae-f94899e78783&filename=littelfuse-thyristor-sxx8xsx-datasheet")
+				(field
+					(name "HEIGHT") "1.93mm")
+				(field
+					(name "MANUFACTURER_NAME") "LITTELFUSE")
+				(field
+					(name "MANUFACTURER_PART_NUMBER") "S4X8TS1RP")
+				(field
+					(name "MOUSER PART NUMBER") "576-S4X8TS1RP")
+				(field
+					(name "MOUSER PRICE/STOCK") "https://www.mouser.com/Search/Refine.aspx?Keyword=576-S4X8TS1RP")
+				(field
+					(name "ARROW PART NUMBER")
+				)
+				(field
+					(name "ARROW PRICE/STOCK")
+				)
+				(field
+					(name "Footprint") "C__Users_86135_Documents_AltiumLL_SamacSys.PcbLib:S4X8TS1RP")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Thyristor")
+			)
+			(libsource
+				(lib "SamacSys")
+				(part "root_2_S4X8TS1RP_SamacSys.SchLib")
+				(description "Thyristor")
+			)
+			(property
+				(name "DATASHEET LINK")
+				(value "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=33d0d5e7-46fd-406d-80ae-f94899e78783&filename=littelfuse-thyristor-sxx8xsx-datasheet")
+			)
+			(property
+				(name "HEIGHT")
+				(value "1.93mm")
+			)
+			(property
+				(name "MANUFACTURER_NAME")
+				(value "LITTELFUSE")
+			)
+			(property
+				(name "MANUFACTURER_PART_NUMBER")
+				(value "S4X8TS1RP")
+			)
+			(property
+				(name "MOUSER PART NUMBER")
+				(value "576-S4X8TS1RP")
+			)
+			(property
+				(name "MOUSER PRICE/STOCK")
+				(value "https://www.mouser.com/Search/Refine.aspx?Keyword=576-S4X8TS1RP")
+			)
+			(property
+				(name "ARROW PART NUMBER")
+				(value "")
+			)
+			(property
+				(name "ARROW PRICE/STOCK")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Nueron")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Neuron_Project.kicad_sch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "*S4X8TS1RP*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2edd6cd1-1ddb-4f88-9695-e8d00daedd91")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J1")
+			(value "SSW-102-01-X-S")
+			(footprint "TSW-102-XX-YY-S")
+			(description "2 Position Receptacle Connector Through Hole")
+			(fields
+				(field
+					(name "MP") "SSW-102-01-G-S")
+				(field
+					(name "PURCHASE-URL") "https://pricing.snapeda.com/search/part/SSW-102-01-G-S/?ref=eda")
+				(field
+					(name "PRICE") "None")
+				(field
+					(name "SNAPEDA_LINK") "https://www.snapeda.com/parts/SSW-102-01-G-S/Samtec/view-part/4872079/?ref=snap")
+				(field
+					(name "CHECK_PRICES") "https://www.snapeda.com/parts/SSW-102-01-G-S/Samtec/view-part/4872079/?ref=eda")
+				(field
+					(name "PACKAGE") "None")
+				(field
+					(name "MF") "Samtec")
+				(field
+					(name "AVAILABILITY") "Good")
+				(field
+					(name "ALTIUM_VALUE") "*")
+				(field
+					(name "Footprint") "TSW-102-XX-YY-S")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "2 Position Receptacle Connector Through Hole")
+			)
+			(libsource
+				(lib "SSW-102-01-X-S")
+				(part "root_1_SSW-102-01-X-S_SSW-102-01-X-S.SchLib")
+				(description "2 Position Receptacle Connector Through Hole")
+			)
+			(property
+				(name "MP")
+				(value "SSW-102-01-G-S")
+			)
+			(property
+				(name "PURCHASE-URL")
+				(value "https://pricing.snapeda.com/search/part/SSW-102-01-G-S/?ref=eda")
+			)
+			(property
+				(name "PRICE")
+				(value "None")
+			)
+			(property
+				(name "SNAPEDA_LINK")
+				(value "https://www.snapeda.com/parts/SSW-102-01-G-S/Samtec/view-part/4872079/?ref=snap")
+			)
+			(property
+				(name "CHECK_PRICES")
+				(value "https://www.snapeda.com/parts/SSW-102-01-G-S/Samtec/view-part/4872079/?ref=eda")
+			)
+			(property
+				(name "PACKAGE")
+				(value "None")
+			)
+			(property
+				(name "MF")
+				(value "Samtec")
+			)
+			(property
+				(name "AVAILABILITY")
+				(value "Good")
+			)
+			(property
+				(name "ALTIUM_VALUE")
+				(value "*")
+			)
+			(property
+				(name "Sheetname")
+				(value "Nueron")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Neuron_Project.kicad_sch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "*TSW-102-XX-YY-S*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "cdd8cc47-2f17-43f7-ba10-429f5d18c347")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "02")
+						)
+						(pin
+							(num "01")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "P1")
+			(value "TSW-102-07-G-S")
+			(footprint "SAMTEC_TSW-102-07-G-S")
+			(description "<a href=\"https://pricing.snapeda.com/parts/TSW-102-07-G-S/Samtec/view-part?ref=eda\">Check availability</a>")
+			(fields
+				(field
+					(name "MF") "Samtec Inc.")
+				(field
+					(name "PACKAGE") "None")
+				(field
+					(name "PRICE") "None")
+				(field
+					(name "ALTIUM_VALUE") "*")
+				(field
+					(name "MP") "TSW-102-07-G-S")
+				(field
+					(name "AVAILABILITY") "Unavailable")
+				(field
+					(name "Footprint") "SAMTEC_TSW-102-07-G-S")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "<a href=\"https://pricing.snapeda.com/parts/TSW-102-07-G-S/Samtec/view-part?ref=eda\">Check availability</a>")
+			)
+			(libsource
+				(lib "headerTSW-102-07-G-S")
+				(part "root_3_TSW-102-07-G-S_headerTSW-102-07-G-S.SchLib")
+				(description "<a href=\"https://pricing.snapeda.com/parts/TSW-102-07-G-S/Samtec/view-part?ref=eda\">Check availability</a>")
+			)
+			(property
+				(name "MF")
+				(value "Samtec Inc.")
+			)
+			(property
+				(name "PACKAGE")
+				(value "None")
+			)
+			(property
+				(name "PRICE")
+				(value "None")
+			)
+			(property
+				(name "ALTIUM_VALUE")
+				(value "*")
+			)
+			(property
+				(name "MP")
+				(value "TSW-102-07-G-S")
+			)
+			(property
+				(name "AVAILABILITY")
+				(value "Unavailable")
+			)
+			(property
+				(name "Sheetname")
+				(value "Nueron")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Neuron_Project.kicad_sch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "*SAMTEC_TSW-102-07-G-S*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1cb7676a-eed9-4b4e-b3cc-e7adb673b386")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "02")
+						)
+						(pin
+							(num "01")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "Res3")
+			(footprint "J1-0603")
+			(description "Resistor")
+			(fields
+				(field
+					(name "PUBLISHED") "8-Jun-2000")
+				(field
+					(name "LATESTREVISIONDATE") "29-May-2009")
+				(field
+					(name "LATESTREVISIONNOTE") "IPC-7351 Footprint Added.")
+				(field
+					(name "PACKAGEREFERENCE") "J1-0603")
+				(field
+					(name "PUBLISHER") "Altium Limited")
+				(field
+					(name "PACKAGEDESCRIPTION") "Chip Resistor")
+				(field
+					(name "ALTIUM_VALUE") "1K")
+				(field
+					(name "Footprint") "J1-0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Miscellaneous Devices")
+				(part "root_0_Res3_Miscellaneous Devices.IntLib")
+				(description "Resistor")
+			)
+			(property
+				(name "PUBLISHED")
+				(value "8-Jun-2000")
+			)
+			(property
+				(name "LATESTREVISIONDATE")
+				(value "29-May-2009")
+			)
+			(property
+				(name "LATESTREVISIONNOTE")
+				(value "IPC-7351 Footprint Added.")
+			)
+			(property
+				(name "PACKAGEREFERENCE")
+				(value "J1-0603")
+			)
+			(property
+				(name "PUBLISHER")
+				(value "Altium Limited")
+			)
+			(property
+				(name "PACKAGEDESCRIPTION")
+				(value "Chip Resistor")
+			)
+			(property
+				(name "ALTIUM_VALUE")
+				(value "1K")
+			)
+			(property
+				(name "Sheetname")
+				(value "Nueron")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Neuron_Project.kicad_sch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "*J1-0603*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "57e51458-1823-4fe5-8879-431809fe8a8e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R2")
+			(value "Res3")
+			(footprint "J1-0603")
+			(description "Resistor")
+			(fields
+				(field
+					(name "PUBLISHED") "8-Jun-2000")
+				(field
+					(name "LATESTREVISIONDATE") "29-May-2009")
+				(field
+					(name "LATESTREVISIONNOTE") "IPC-7351 Footprint Added.")
+				(field
+					(name "PACKAGEREFERENCE") "J1-0603")
+				(field
+					(name "PUBLISHER") "Altium Limited")
+				(field
+					(name "PACKAGEDESCRIPTION") "Chip Resistor")
+				(field
+					(name "ALTIUM_VALUE") "1K")
+				(field
+					(name "Footprint") "J1-0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Miscellaneous Devices")
+				(part "root_0_Res3_Miscellaneous Devices.IntLib")
+				(description "Resistor")
+			)
+			(property
+				(name "PUBLISHED")
+				(value "8-Jun-2000")
+			)
+			(property
+				(name "LATESTREVISIONDATE")
+				(value "29-May-2009")
+			)
+			(property
+				(name "LATESTREVISIONNOTE")
+				(value "IPC-7351 Footprint Added.")
+			)
+			(property
+				(name "PACKAGEREFERENCE")
+				(value "J1-0603")
+			)
+			(property
+				(name "PUBLISHER")
+				(value "Altium Limited")
+			)
+			(property
+				(name "PACKAGEDESCRIPTION")
+				(value "Chip Resistor")
+			)
+			(property
+				(name "ALTIUM_VALUE")
+				(value "1K")
+			)
+			(property
+				(name "Sheetname")
+				(value "Nueron")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Neuron_Project.kicad_sch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "*J1-0603*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3e659bf0-64c5-417d-9758-bad02e35db5d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R3")
+			(value "Res3")
+			(footprint "J1-0603")
+			(description "Resistor")
+			(fields
+				(field
+					(name "PUBLISHED") "8-Jun-2000")
+				(field
+					(name "LATESTREVISIONDATE") "29-May-2009")
+				(field
+					(name "LATESTREVISIONNOTE") "IPC-7351 Footprint Added.")
+				(field
+					(name "PACKAGEREFERENCE") "J1-0603")
+				(field
+					(name "PUBLISHER") "Altium Limited")
+				(field
+					(name "PACKAGEDESCRIPTION") "Chip Resistor")
+				(field
+					(name "ALTIUM_VALUE") "1K")
+				(field
+					(name "Footprint") "J1-0603")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Miscellaneous Devices")
+				(part "root_1_Res3_Miscellaneous Devices.IntLib")
+				(description "Resistor")
+			)
+			(property
+				(name "PUBLISHED")
+				(value "8-Jun-2000")
+			)
+			(property
+				(name "LATESTREVISIONDATE")
+				(value "29-May-2009")
+			)
+			(property
+				(name "LATESTREVISIONNOTE")
+				(value "IPC-7351 Footprint Added.")
+			)
+			(property
+				(name "PACKAGEREFERENCE")
+				(value "J1-0603")
+			)
+			(property
+				(name "PUBLISHER")
+				(value "Altium Limited")
+			)
+			(property
+				(name "PACKAGEDESCRIPTION")
+				(value "Chip Resistor")
+			)
+			(property
+				(name "ALTIUM_VALUE")
+				(value "1K")
+			)
+			(property
+				(name "Sheetname")
+				(value "Nueron")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Neuron_Project.kicad_sch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "*J1-0603*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1ded5c90-1374-4c04-a500-dd0e259e14ee")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "VR1")
+			(value "3214X-1-103E")
+			(footprint "3214X1203E")
+			(description "10 kOhms 0.25W, 1/4W Gull Wing Surface Mount Trimmer Potentiometer Cermet 5 Turn Top Adjustment")
+			(fields
+				(field
+					(name "PACKAGE") "6432 Bourns")
+				(field
+					(name "AVAILABILITY") "Good")
+				(field
+					(name "ALTIUM_VALUE") "*")
+				(field
+					(name "MP") "3214X-1-103E")
+				(field
+					(name "SNAPEDA_LINK") "https://www.snapeda.com/parts/3214X-1-103E/Bourns/view-part/287161/?ref=snap")
+				(field
+					(name "PRICE") "None")
+				(field
+					(name "MF") "Bourns")
+				(field
+					(name "PURCHASE-URL") "https://pricing.snapeda.com/search/part/3214X-1-103E/?ref=eda")
+				(field
+					(name "CHECK_PRICES") "https://www.snapeda.com/parts/3214X-1-103E/Bourns/view-part/287161/?ref=eda")
+				(field
+					(name "Footprint") "3214X1203E")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "10 kOhms 0.25W, 1/4W Gull Wing Surface Mount Trimmer Potentiometer Cermet 5 Turn Top Adjustment")
+			)
+			(libsource
+				(lib "3214X-1-103E")
+				(part "root_0_3214X-1-103E_3214X-1-103E.SchLib")
+				(description "10 kOhms 0.25W, 1/4W Gull Wing Surface Mount Trimmer Potentiometer Cermet 5 Turn Top Adjustment")
+			)
+			(property
+				(name "PACKAGE")
+				(value "6432 Bourns")
+			)
+			(property
+				(name "AVAILABILITY")
+				(value "Good")
+			)
+			(property
+				(name "ALTIUM_VALUE")
+				(value "*")
+			)
+			(property
+				(name "MP")
+				(value "3214X-1-103E")
+			)
+			(property
+				(name "SNAPEDA_LINK")
+				(value "https://www.snapeda.com/parts/3214X-1-103E/Bourns/view-part/287161/?ref=snap")
+			)
+			(property
+				(name "PRICE")
+				(value "None")
+			)
+			(property
+				(name "MF")
+				(value "Bourns")
+			)
+			(property
+				(name "PURCHASE-URL")
+				(value "https://pricing.snapeda.com/search/part/3214X-1-103E/?ref=eda")
+			)
+			(property
+				(name "CHECK_PRICES")
+				(value "https://www.snapeda.com/parts/3214X-1-103E/Bourns/view-part/287161/?ref=eda")
+			)
+			(property
+				(name "Sheetname")
+				(value "Nueron")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Neuron_Project.kicad_sch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "*3214X1203E*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bf9235e6-2016-45b9-817a-cf3928754653")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "VR2")
+			(value "3214X-1-103E")
+			(footprint "3214X1203E")
+			(description "10 kOhms 0.25W, 1/4W Gull Wing Surface Mount Trimmer Potentiometer Cermet 5 Turn Top Adjustment")
+			(fields
+				(field
+					(name "PACKAGE") "6432 Bourns")
+				(field
+					(name "AVAILABILITY") "Good")
+				(field
+					(name "ALTIUM_VALUE") "*")
+				(field
+					(name "MP") "3214X-1-103E")
+				(field
+					(name "SNAPEDA_LINK") "https://www.snapeda.com/parts/3214X-1-103E/Bourns/view-part/287161/?ref=snap")
+				(field
+					(name "PRICE") "None")
+				(field
+					(name "MF") "Bourns")
+				(field
+					(name "PURCHASE-URL") "https://pricing.snapeda.com/search/part/3214X-1-103E/?ref=eda")
+				(field
+					(name "CHECK_PRICES") "https://www.snapeda.com/parts/3214X-1-103E/Bourns/view-part/287161/?ref=eda")
+				(field
+					(name "Footprint") "3214X1203E")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "10 kOhms 0.25W, 1/4W Gull Wing Surface Mount Trimmer Potentiometer Cermet 5 Turn Top Adjustment")
+			)
+			(libsource
+				(lib "3214X-1-103E")
+				(part "root_2_mirrored_3214X-1-103E_3214X-1-103E.SchLib")
+				(description "10 kOhms 0.25W, 1/4W Gull Wing Surface Mount Trimmer Potentiometer Cermet 5 Turn Top Adjustment")
+			)
+			(property
+				(name "PACKAGE")
+				(value "6432 Bourns")
+			)
+			(property
+				(name "AVAILABILITY")
+				(value "Good")
+			)
+			(property
+				(name "ALTIUM_VALUE")
+				(value "*")
+			)
+			(property
+				(name "MP")
+				(value "3214X-1-103E")
+			)
+			(property
+				(name "SNAPEDA_LINK")
+				(value "https://www.snapeda.com/parts/3214X-1-103E/Bourns/view-part/287161/?ref=snap")
+			)
+			(property
+				(name "PRICE")
+				(value "None")
+			)
+			(property
+				(name "MF")
+				(value "Bourns")
+			)
+			(property
+				(name "PURCHASE-URL")
+				(value "https://pricing.snapeda.com/search/part/3214X-1-103E/?ref=eda")
+			)
+			(property
+				(name "CHECK_PRICES")
+				(value "https://www.snapeda.com/parts/3214X-1-103E/Bourns/view-part/287161/?ref=eda")
+			)
+			(property
+				(name "Sheetname")
+				(value "Nueron")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Neuron_Project.kicad_sch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "*3214X1203E*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d7ccf67a-5de7-4355-a753-6f2af3c76f2a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "3214X-1-103E")
+			(part "root_0_3214X-1-103E_3214X-1-103E.SchLib")
+			(description "10 kOhms 0.25W, 1/4W Gull Wing Surface Mount Trimmer Potentiometer Cermet 5 Turn Top Adjustment")
+			(footprints
+				(fp "*3214X1203E*")
+			)
+			(fields
+				(field
+					(name "Reference")
+				)
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "10 kOhms 0.25W, 1/4W Gull Wing Surface Mount Trimmer Potentiometer Cermet 5 Turn Top Adjustment")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "CCW")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "WIPER")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "CW")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "3214X-1-103E")
+			(part "root_2_mirrored_3214X-1-103E_3214X-1-103E.SchLib")
+			(description "10 kOhms 0.25W, 1/4W Gull Wing Surface Mount Trimmer Potentiometer Cermet 5 Turn Top Adjustment")
+			(footprints
+				(fp "*3214X1203E*")
+			)
+			(fields
+				(field
+					(name "Reference")
+				)
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "10 kOhms 0.25W, 1/4W Gull Wing Surface Mount Trimmer Potentiometer Cermet 5 Turn Top Adjustment")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "CCW")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "WIPER")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "CW")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Miscellaneous Devices")
+			(part "root_0_Res3_Miscellaneous Devices.IntLib")
+			(description "Resistor")
+			(footprints
+				(fp "*J1-0603*")
+			)
+			(fields
+				(field
+					(name "Reference")
+				)
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Miscellaneous Devices")
+			(part "root_1_Cap Semi_Miscellaneous Devices.IntLib")
+			(description "Capacitor (Semiconductor SIM Model)")
+			(footprints
+				(fp "*C1206*")
+			)
+			(fields
+				(field
+					(name "Reference")
+				)
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Capacitor (Semiconductor SIM Model)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Miscellaneous Devices")
+			(part "root_1_Res3_Miscellaneous Devices.IntLib")
+			(description "Resistor")
+			(footprints
+				(fp "*J1-0603*")
+			)
+			(fields
+				(field
+					(name "Reference")
+				)
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Miscellaneous Devices")
+			(part "root_3_Cap2_Miscellaneous Devices.IntLib")
+			(description "Capacitor")
+			(footprints
+				(fp "*CAPR5-4X5*")
+			)
+			(fields
+				(field
+					(name "Reference")
+				)
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "SSW-102-01-X-S")
+			(part "root_1_SSW-102-01-X-S_SSW-102-01-X-S.SchLib")
+			(description "2 Position Receptacle Connector Through Hole")
+			(footprints
+				(fp "*TSW-102-XX-YY-S*")
+			)
+			(fields
+				(field
+					(name "Reference")
+				)
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "2 Position Receptacle Connector Through Hole")
+			)
+			(pins
+				(pin
+					(num "01")
+					(name "01")
+					(type "passive")
+				)
+				(pin
+					(num "02")
+					(name "02")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "SamacSys")
+			(part "root_2_S4X8TS1RP_SamacSys.SchLib")
+			(description "Thyristor")
+			(footprints
+				(fp "*S4X8TS1RP*")
+			)
+			(fields
+				(field
+					(name "Reference")
+				)
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Thyristor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A_1")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "G")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "A_2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "headerTSW-102-07-G-S")
+			(part "root_3_TSW-102-07-G-S_headerTSW-102-07-G-S.SchLib")
+			(description "<a href=\"https://pricing.snapeda.com/parts/TSW-102-07-G-S/Samtec/view-part?ref=eda\">Check availability</a>")
+			(footprints
+				(fp "*SAMTEC_TSW-102-07-G-S*")
+			)
+			(fields
+				(field
+					(name "Reference")
+				)
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "<a href=\"https://pricing.snapeda.com/parts/TSW-102-07-G-S/Samtec/view-part?ref=eda\">Check availability</a>")
+			)
+			(pins
+				(pin
+					(num "01")
+					(name "01")
+					(type "passive")
+				)
+				(pin
+					(num "02")
+					(name "02")
+					(type "passive")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "SamacSys")
+			(uri "${KIPRJMOD}/SamacSys.SchLib")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "+5")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D1")
+				(pin "2")
+				(pinfunction "A_1_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D1")
+				(pin "4")
+				(pinfunction "A_2_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "01")
+				(pinfunction "01_01")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "VR1")
+				(pin "1")
+				(pinfunction "CCW_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "2")
+			(name "GND")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "02")
+				(pinfunction "02_02")
+				(pintype "passive")
+			)
+			(node
+				(ref "P1")
+				(pin "01")
+				(pinfunction "01_01")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "VR2")
+				(pin "3")
+				(pinfunction "CW_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "3")
+			(name "Net-(D1-G)")
+			(class "Default")
+			(node
+				(ref "C3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D1")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D1")
+				(pin "3")
+				(pinfunction "G_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "VR1")
+				(pin "2")
+				(pinfunction "WIPER_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "VR1")
+				(pin "3")
+				(pinfunction "CW_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "4")
+			(name "Net-(VR2-CCW)")
+			(class "Default")
+			(node
+				(ref "P1")
+				(pin "02")
+				(pinfunction "02_02")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "VR2")
+				(pin "1")
+				(pinfunction "CCW_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "VR2")
+				(pin "2")
+				(pinfunction "WIPER_2")
+				(pintype "passive")
+			)
+		)
+	)
+)

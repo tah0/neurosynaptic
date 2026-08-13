@@ -1337,7 +1337,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ca786b9-e0b1-4907-8bf1-dcb5a987024c")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR023"
 			(at 154.94 60.1472 0)
 			(hide yes)
 			(show_name no)
@@ -1394,7 +1394,7 @@
 		(instances
 			(project "Synapse_LPS"
 				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7"
-					(reference "#PWR?")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -1575,7 +1575,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "16bb2347-1999-45c6-929c-7c35a4b5a786")
-		(property "Reference" "R5*"
+		(property "Reference" "R5*1"
 			(at 211.836 131.0132 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1722,7 +1722,7 @@
 		(instances
 			(project "Synapse_LPS"
 				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7"
-					(reference "R5*")
+					(reference "R5*1")
 					(unit 1)
 				)
 			)
@@ -1739,7 +1739,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "16d469a2-e3d3-4b44-a7a4-5cffcc261ecb")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR024"
 			(at 157.48 52.5272 0)
 			(hide yes)
 			(show_name no)
@@ -1796,7 +1796,7 @@
 		(instances
 			(project "Synapse_LPS"
 				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7"
-					(reference "#PWR?")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -1978,7 +1978,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "45a11f90-2e00-4982-8b46-a9f16db1222e")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR021"
 			(at 121.92 52.5272 0)
 			(hide yes)
 			(show_name no)
@@ -2035,7 +2035,7 @@
 		(instances
 			(project "Synapse_LPS"
 				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7"
-					(reference "#PWR?")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -2394,7 +2394,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a05428bb-5176-4775-8a36-517a5d9c353a")
-		(property "Reference" "Ral*"
+		(property "Reference" "Ral*1"
 			(at 88.9 136.3472 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2541,7 +2541,7 @@
 		(instances
 			(project "Synapse_LPS"
 				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7"
-					(reference "Ral*")
+					(reference "Ral*1")
 					(unit 1)
 				)
 			)
@@ -2558,7 +2558,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a11fc735-5424-47e8-9281-a9e8846d8113")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR020"
 			(at 119.38 60.1472 0)
 			(hide yes)
 			(show_name no)
@@ -2615,7 +2615,7 @@
 		(instances
 			(project "Synapse_LPS"
 				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7"
-					(reference "#PWR?")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -2632,7 +2632,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "af4d0879-3d07-4d5c-b952-a58ca990121e")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR026"
 			(at 175.26 52.5272 0)
 			(hide yes)
 			(show_name no)
@@ -2689,7 +2689,7 @@
 		(instances
 			(project "Synapse_LPS"
 				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7"
-					(reference "#PWR?")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -2870,7 +2870,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bc9fb872-c7a8-4c4b-a119-efcd36ccef35")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR019"
 			(at 101.6 60.1472 0)
 			(hide yes)
 			(show_name no)
@@ -2927,7 +2927,7 @@
 		(instances
 			(project "Synapse_LPS"
 				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7"
-					(reference "#PWR?")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -2944,7 +2944,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c48a9e96-f3ef-4b03-b77d-b35c17a95b5a")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR025"
 			(at 172.72 60.1472 0)
 			(hide yes)
 			(show_name no)
@@ -3001,7 +3001,7 @@
 		(instances
 			(project "Synapse_LPS"
 				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7"
-					(reference "#PWR?")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -3182,7 +3182,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d445daa7-0788-479d-a377-80e740e811e4")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR022"
 			(at 137.16 60.1472 0)
 			(hide yes)
 			(show_name no)
@@ -3239,7 +3239,7 @@
 		(instances
 			(project "Synapse_LPS"
 				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7"
-					(reference "#PWR?")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -3420,7 +3420,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8eadb11-c28a-4e76-a7ab-b919cce47c1e")
-		(property "Reference" "Rex*"
+		(property "Reference" "Rex*1"
 			(at 86.36 103.3272 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3567,7 +3567,7 @@
 		(instances
 			(project "Synapse_LPS"
 				(path "/af4a7426-c915-4fd8-a9a0-d1d0653890c7"
-					(reference "Rex*")
+					(reference "Rex*1")
 					(unit 1)
 				)
 			)
