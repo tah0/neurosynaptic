@@ -3,3 +3,6 @@ notes/
 
 # Component libraries — SamacSys license prohibits redistribution
 PCBdesign/libs/
+
+# Vendor CAD models — redistribution not confirmed
+PCBdesign/kicad/component CAD models/
